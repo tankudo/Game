@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320A.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320B.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320C.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320D.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320E.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/320F.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380A.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380B.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380C.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380D.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380E.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/380F.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatrixGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cpu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ElevatorDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/ElevatorUp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Level.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Level2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Tutorial.java" afterDir="false" />
-    </list>
+    <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -91,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590506178486</updated>
-      <workItem from="1590506183816" duration="827000" />
+      <workItem from="1590506183816" duration="1118000" />
     </task>
     <servers />
   </component>

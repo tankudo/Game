@@ -3,6 +3,9 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+       Tutorial tutorial=new Tutorial();
+        tutorial.window();
+     //   Menu menu=new Menu();
+      //  menu.menu();
     }
 }

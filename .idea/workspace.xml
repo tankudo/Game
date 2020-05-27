@@ -2,12 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320A.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320A.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320B.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320B.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320C.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320C.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320D.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320D.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320E.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320E.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/320F.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/320F.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380A.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380A.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380B.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380B.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380C.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380C.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380D.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380D.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380E.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380E.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/380F.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/380F.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data/gif/arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/data/picture/b1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b2.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/picture/b2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpu.png" beforeDir="false" afterPath="$PROJECT_DIR$/data/picture/cpu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorDown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorDown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorUp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Tutorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Tutorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tutorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -18,6 +50,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cRzQePeMywwFJ3yz4sNNfrSVCN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,6 +68,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\gif" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
@@ -40,7 +79,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tutorial">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="MatrixGame" />
@@ -66,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Tutorial" />
       </list>
     </recent_temporary>
@@ -81,10 +121,37 @@
       <option name="presentableId" value="Default" />
       <updated>1590506178486</updated>
       <workItem from="1590506183816" duration="3319000" />
+      <workItem from="1590593227510" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1194" y="264" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590595921404">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state x="-1194" y="264" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590595921404" />
+    <state x="-1112" y="350" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1590593233710">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state x="-1112" y="350" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590593233710" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1590596751010">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590596751010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1590596751010">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590596751010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1590596751010">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590596751010" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1590596751010">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590596751010" />
   </component>
 </project>

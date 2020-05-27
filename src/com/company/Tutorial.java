@@ -35,21 +35,21 @@ public class Tutorial extends JPanel implements ActionListener, KeyListener {
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
-        background = Toolkit.getDefaultToolkit().createImage("b1.jpg");
-        image0 = Toolkit.getDefaultToolkit().createImage("380A.gif");
-        image1 = Toolkit.getDefaultToolkit().createImage("380B.gif");
-        image2 = Toolkit.getDefaultToolkit().createImage("380C.gif");
-        image3 = Toolkit.getDefaultToolkit().createImage("380D.gif");
-        image4 = Toolkit.getDefaultToolkit().createImage("380E.gif");
-        image5 = Toolkit.getDefaultToolkit().createImage("380F.gif");
-        image6 = Toolkit.getDefaultToolkit().createImage("320A.gif");
-        image7 = Toolkit.getDefaultToolkit().createImage("320B.gif");
-        image8 = Toolkit.getDefaultToolkit().createImage("320C.gif");
-        image9 = Toolkit.getDefaultToolkit().createImage("320D.gif");
-        image10 = Toolkit.getDefaultToolkit().createImage("320E.gif");
-        image11 = Toolkit.getDefaultToolkit().createImage("320F.gif");
-        image12 = Toolkit.getDefaultToolkit().createImage("arrow.gif");
-        image13 = Toolkit.getDefaultToolkit().createImage("cpu.png");
+        background = Toolkit.getDefaultToolkit().createImage("data/picture/b1.jpg");
+        image0 = Toolkit.getDefaultToolkit().createImage("data/gif/380A.gif");
+        image1 = Toolkit.getDefaultToolkit().createImage("data/gif/380B.gif");
+        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/380C.gif");
+        image3 = Toolkit.getDefaultToolkit().createImage("data/gif/380D.gif");
+        image4 = Toolkit.getDefaultToolkit().createImage("data/gif/380E.gif");
+        image5 = Toolkit.getDefaultToolkit().createImage("data/gif/380F.gif");
+        image6 = Toolkit.getDefaultToolkit().createImage("data/gif/320A.gif");
+        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/320B.gif");
+        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/320C.gif");
+        image9 = Toolkit.getDefaultToolkit().createImage("data/gif/320D.gif");
+        image10 = Toolkit.getDefaultToolkit().createImage("data/gif/320E.gif");
+        image11 = Toolkit.getDefaultToolkit().createImage("data/gif/320F.gif");
+        image12 = Toolkit.getDefaultToolkit().createImage("data/gif/arrow.gif");
+        image13 = Toolkit.getDefaultToolkit().createImage("data/picture/cpu.png");
 
     }
 
@@ -142,7 +142,7 @@ public class Tutorial extends JPanel implements ActionListener, KeyListener {
 
     }
 
-    public static void main(String[] args) {
+    public void window(){
         Tutorial t = new Tutorial();
         JFrame jf = new JFrame();
         jf.setTitle("Progmatic");
@@ -150,6 +150,9 @@ public class Tutorial extends JPanel implements ActionListener, KeyListener {
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.add(t);
+
     }
+
+
 
 }

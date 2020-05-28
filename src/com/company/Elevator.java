@@ -1,4 +1,4 @@
 package com.company;
 
-public abstract class Elevator {
+public  class Elevator extends Entity {
 }

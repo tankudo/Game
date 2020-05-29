@@ -41,17 +41,13 @@ public class Level1 extends Level   {
     }
 
     public void paintComponent(Graphics g) {
-
         g.drawImage(background, 0, 0, null);
-
         g.drawImage(image12, 770, 390, null);
         g.drawImage(image12, 0, 320, null);
         g.drawImage(image12, 770, 250, null);
         g.drawImage(image12, 0, 180, null);
         g.drawImage(image12, 770, 110, null);
         g.drawImage(image12, 0, 40, null);
-
-
         g.drawImage(image0, 0, 390, null);
         g.drawImage(image6, 420, 390, null);
         g.drawImage(image7, 60, 320, null);
@@ -65,9 +61,5 @@ public class Level1 extends Level   {
         g.drawImage(image11, 60, 50, null);
         g.drawImage(image5, 420, 50, null);
         g.drawImage(image13, 60, 350, null);
-
-
     }
-
-
 }

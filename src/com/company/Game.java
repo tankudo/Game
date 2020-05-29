@@ -20,7 +20,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
 
-
     }
 
     public void paintComponent(Graphics g) {
@@ -53,7 +52,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-
 
     }
 

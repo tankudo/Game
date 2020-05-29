@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/BonusFruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorDown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/ElevatorUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ElevatorDown.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ElevatorUp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Tutorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590506178486</updated>
       <workItem from="1590506183816" duration="3319000" />
-      <workItem from="1590592047941" duration="2953000" />
+      <workItem from="1590592047941" duration="4374000" />
     </task>
     <servers />
   </component>
@@ -106,21 +94,21 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="641" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595895835" />
-    <state width="1487" height="102" key="GridCell.Tab.0.bottom" timestamp="1590595905637">
+    <state width="1487" height="224" key="GridCell.Tab.0.bottom" timestamp="1590600242490">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="102" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1487" height="102" key="GridCell.Tab.0.center" timestamp="1590595905637">
+    <state width="1487" height="224" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590600242490" />
+    <state width="1487" height="224" key="GridCell.Tab.0.center" timestamp="1590600242490">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="102" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1487" height="102" key="GridCell.Tab.0.left" timestamp="1590595905637">
+    <state width="1487" height="224" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590600242490" />
+    <state width="1487" height="224" key="GridCell.Tab.0.left" timestamp="1590600242490">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="102" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1487" height="102" key="GridCell.Tab.0.right" timestamp="1590595905637">
+    <state width="1487" height="224" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590600242490" />
+    <state width="1487" height="224" key="GridCell.Tab.0.right" timestamp="1590600242490">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="102" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1487" height="224" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590600242490" />
   </component>
 </project>

@@ -14,6 +14,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Level level = new Level1();
     Player player = new Player();
 
+
     public Game() {
         tm.start();
         addKeyListener(this);
@@ -26,6 +27,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         super.paintComponent(g);
         level.paintComponent(g);
         player.paintComponent(g);
+        System.out.println("game run");
         tm.start();
     }
 
@@ -55,14 +57,15 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     }
 
-    public static void main(String[] args) {
+    public void window() {
         Game t = new Game();
         JFrame jf = new JFrame();
-        jf.setTitle("Progmatic");
-        jf.setSize(800, 495);
+        jf.setTitle("GAME");
+        jf.setSize(810, 495);
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.add(t);
     }
+
 
 }

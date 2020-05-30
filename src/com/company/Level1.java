@@ -23,31 +23,35 @@ public class Level1 extends Level   {
 
 
     public Level1() {
-        background = Toolkit.getDefaultToolkit().createImage("b1.jpg");
-        image0 = Toolkit.getDefaultToolkit().createImage("380A.gif");
-        image1 = Toolkit.getDefaultToolkit().createImage("380B.gif");
-        image2 = Toolkit.getDefaultToolkit().createImage("380C.gif");
-        image3 = Toolkit.getDefaultToolkit().createImage("380D.gif");
-        image4 = Toolkit.getDefaultToolkit().createImage("380E.gif");
-        image5 = Toolkit.getDefaultToolkit().createImage("380F.gif");
-        image6 = Toolkit.getDefaultToolkit().createImage("320A.gif");
-        image7 = Toolkit.getDefaultToolkit().createImage("320B.gif");
-        image8 = Toolkit.getDefaultToolkit().createImage("320C.gif");
-        image9 = Toolkit.getDefaultToolkit().createImage("320D.gif");
-        image10 = Toolkit.getDefaultToolkit().createImage("320E.gif");
-        image11 = Toolkit.getDefaultToolkit().createImage("320F.gif");
-        image12 = Toolkit.getDefaultToolkit().createImage("arrow.gif");
-        image13 = Toolkit.getDefaultToolkit().createImage("cpu.png");
+        background = Toolkit.getDefaultToolkit().createImage("data/picture/b1.jpg");
+        image0 = Toolkit.getDefaultToolkit().createImage("data/gif/380A.gif");
+        image1 = Toolkit.getDefaultToolkit().createImage("data/gif/380B.gif");
+        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/380C.gif");
+        image3 = Toolkit.getDefaultToolkit().createImage("data/gif/380D.gif");
+        image4 = Toolkit.getDefaultToolkit().createImage("data/gif/380E.gif");
+        image5 = Toolkit.getDefaultToolkit().createImage("data/gif/380F.gif");
+        image6 = Toolkit.getDefaultToolkit().createImage("data/gif/320A.gif");
+        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/320B.gif");
+        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/320C.gif");
+        image9 = Toolkit.getDefaultToolkit().createImage("data/gif/320D.gif");
+        image10 = Toolkit.getDefaultToolkit().createImage("data/gif/320E.gif");
+        image11 = Toolkit.getDefaultToolkit().createImage("data/gif/320F.gif");
+        image12 = Toolkit.getDefaultToolkit().createImage("data/gif/arrow.gif");
+        image13 = Toolkit.getDefaultToolkit().createImage("data/picture/cpu.png");
     }
 
     public void paintComponent(Graphics g) {
+        System.out.println("Level1");
         g.drawImage(background, 0, 0, null);
+
         g.drawImage(image12, 770, 390, null);
         g.drawImage(image12, 0, 320, null);
         g.drawImage(image12, 770, 250, null);
         g.drawImage(image12, 0, 180, null);
         g.drawImage(image12, 770, 110, null);
         g.drawImage(image12, 0, 40, null);
+
+
         g.drawImage(image0, 0, 390, null);
         g.drawImage(image6, 420, 390, null);
         g.drawImage(image7, 60, 320, null);
@@ -61,5 +65,9 @@ public class Level1 extends Level   {
         g.drawImage(image11, 60, 50, null);
         g.drawImage(image5, 420, 50, null);
         g.drawImage(image13, 60, 350, null);
+
+
     }
+
+
 }

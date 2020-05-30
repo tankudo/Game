@@ -11,6 +11,8 @@ public class Player extends Entity{
     Image idleByLeft;
     Image deadLeft;
     Image standRight;
+    Image jumpLeft;
+    Image jumpRight;
 
     Player(){
         walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
@@ -19,6 +21,8 @@ public class Player extends Entity{
         idleByLeft = Toolkit.getDefaultToolkit().createImage("data/gif/idleByLeft.gif");
         deadLeft = Toolkit.getDefaultToolkit().createImage("data/gif/deadLeft.gif");
         standRight = Toolkit.getDefaultToolkit().createImage("data/gif/deadRight.gif");
+        jumpLeft = Toolkit.getDefaultToolkit().createImage("data/gif/jumpLeft.gif");
+        jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
     }
 
     public void paintComponent(Graphics g) {

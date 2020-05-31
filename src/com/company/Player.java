@@ -1,14 +1,43 @@
 package com.company;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
 
 public class Player extends Entity{
-    int x = 0, y = 430, velX = 0;
+
+    int x = 0, y = 415, velX = 0;
+    Image walkLeft;
+    Image walkRight;
+    Image idleByRight;
+    Image idleByLeft;
+    Image deadLeft;
+    Image standRight;
+    Image jumpLeft;
+    Image jumpRight;
+
+    Player(){
+        walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
+        walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/walkRight.gif");
+        idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/idleByRight.gif");
+        idleByLeft = Toolkit.getDefaultToolkit().createImage("data/gif/idleByLeft.gif");
+        deadLeft = Toolkit.getDefaultToolkit().createImage("data/gif/deadLeft.gif");
+        standRight = Toolkit.getDefaultToolkit().createImage("data/gif/deadRight.gif");
+        jumpLeft = Toolkit.getDefaultToolkit().createImage("data/gif/jumpLeft.gif");
+        jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
+    }
 
     public void paintComponent(Graphics g) {
-        g.setColor(Color.white);
-        g.fillRect(x, y, 30, 30);
+        if(velX == 0 && x == 769){
+            g.drawImage(idleByLeft,x,y,null);
+        }
+        else if(velX == 0 && x == 1){
+            g.drawImage(idleByRight,x,y,null);
+        }
+        else if(velX > 0) {
+            g.drawImage(walkRight,x,y,null);
+        }
+        else {
+            g.drawImage(walkLeft,x,y,null);
+        }
 
     }
 
@@ -25,23 +54,23 @@ public class Player extends Entity{
             velX = 0;
             x = 769;
         }
-        if (x == 769 && y == 430) {
-            y = 360;
+        if (x == 769 && y == 415) {
+            y = 345;
         }
-        if (x == 1 && y == 360) {
-            y = 290;
+        if (x == 1 && y == 345) {
+            y = 275;
         }
-        if (x == 769 && y == 290) {
-            y = 220;
+        if (x == 769 && y == 275) {
+            y = 205;
         }
-        if (x == 1 && y == 220) {
-            y = 150;
+        if (x == 1 && y == 205) {
+            y = 135;
         }
-        if (x == 769 && y == 150) {
-            y = 80;
+        if (x == 769 && y == 135) {
+            y = 65;
         }
-        if (x == 1 && y == 80) {
-            y = 20;
+        if (x == 1 && y == 65) {
+            y = 5;
         }
         x = x + velX;
     }

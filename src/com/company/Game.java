@@ -13,7 +13,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Timer tm = new Timer(5, this);
     Level level = new Level1();
     Player player = new Player();
-
+    BonusFruit bonusFruit = new BonusFruit();
 
     public Game() {
         tm.start();
@@ -27,6 +27,11 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         super.paintComponent(g);
         level.paintComponent(g);
         player.paintComponent(g);
+        bonusFruit.paintComponent(g);
+        if (player.getX() == 30 && player.getY() == 415) {
+            bonusFruit.setCpuX(-100);
+            bonusFruit.setCpuY(-100);
+        }
         System.out.println("game run");
         tm.start();
     }

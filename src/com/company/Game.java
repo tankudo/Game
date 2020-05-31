@@ -66,7 +66,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         Game t = new Game();
         JFrame jf = new JFrame();
         jf.setTitle("GAME");
-        jf.setSize(810, 495);
+        jf.setSize(810, 495); //todo change "y" to get a head for score calculation
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.add(t);

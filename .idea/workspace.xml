@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/gif/deadLeft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/deadRight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/idleByLeft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/idleByRight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/jumpLeft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/jumpRight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/walkLeft.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/walkRight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sound/Megalovania.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/cpu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/cpu1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/picture/le.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Entity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/GameRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/SoundPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/SoundPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BonusFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BonusFruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MenuRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +25,23 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="95" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,25 +69,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/picture" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/data/gif" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data" />
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\gif" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/gif" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GameRunner">
@@ -157,7 +166,8 @@
       <workItem from="1590592047941" duration="2953000" />
       <workItem from="1590647460260" duration="24612000" />
       <workItem from="1590845766318" duration="9024000" />
-      <workItem from="1590877857344" duration="221000" />
+      <workItem from="1590942911518" duration="5614000" />
+      <workItem from="1591020994075" duration="8885000" />
     </task>
     <servers />
   </component>
@@ -168,46 +178,80 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-827" y="168" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1590695578628">
+    <state x="428" y="124" width="800" height="677" key="#Project_Structure" timestamp="1590869855107">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="428" y="124" width="800" height="677" key="#Project_Structure/67.27.1533.873@67.27.1533.873" timestamp="1590869855107" />
+    <state x="-827" y="168" width="333" height="479" key="#com.intellij.ide.util.MemberChooser" timestamp="1591029367464">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state x="-827" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590695578628" />
+    <state x="-827" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591029367464" />
     <state x="641" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595895835" />
+    <state x="940" y="220" width="333" height="479" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1590946321862" />
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590675946811">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590675946811" />
-    <state x="-1180" y="216" key="FileChooserDialogImpl" timestamp="1590599057804">
+    <state x="-1180" y="216" key="FileChooserDialogImpl" timestamp="1591025649729">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590599057804" />
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1590878078069">
+    <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591025649729" />
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1591037972422">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590878078069" />
+    <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591037972422" />
     <state width="1557" height="273" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
     <state width="1487" height="102" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1590878078069">
+    <state width="1487" height="311" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590949638764" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1591037972421">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590878078069" />
+    <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591037972421" />
     <state width="1557" height="273" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
     <state width="1487" height="102" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1590878078069">
+    <state width="1487" height="311" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1590949638762" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1591037972421">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590878078069" />
+    <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591037972421" />
     <state width="1557" height="273" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
     <state width="1487" height="102" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
-    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1590878078069">
+    <state width="1487" height="311" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1590949638762" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1591037972421">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
-    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590878078069" />
+    <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591037972421" />
     <state width="1557" height="273" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
     <state width="1487" height="102" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1487" height="311" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1590949638762" />
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1590872735264">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590872735264" />
+    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1590872735263">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1590872735263" />
+    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1590872735263">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1590872735263" />
+    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1590872735264">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1590872735264" />
     <state x="280" y="4" key="SettingsEditor" timestamp="1590846019798">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590846019798" />
+    <state x="-1578" y="81" key="new project wizard" timestamp="1591025639130">
+      <screen x="-1920" y="-64" width="1920" height="1050" />
+    </state>
+    <state x="-1578" y="81" key="new project wizard/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591025639130" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MatrixGame$GameRunner.ic" NAME="GameRunner Coverage Results" MODIFIED="1590870017406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,10 +1,8 @@
 package com.company;
 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class Level1 extends Level   {
+public class Level1 extends Level {
     private Image image0;
     private Image image1;
     private Image image2;
@@ -18,7 +16,6 @@ public class Level1 extends Level   {
     private Image image10;
     private Image image11;
     private Image image12;
-    private Image image13;
     private Image background;
 
 
@@ -37,7 +34,7 @@ public class Level1 extends Level   {
         image10 = Toolkit.getDefaultToolkit().createImage("data/gif/320E.gif");
         image11 = Toolkit.getDefaultToolkit().createImage("data/gif/320F.gif");
         image12 = Toolkit.getDefaultToolkit().createImage("data/gif/arrow.gif");
-        image13 = Toolkit.getDefaultToolkit().createImage("data/picture/cpu.png");
+
     }
 
     public void paintComponent(Graphics g) {
@@ -64,10 +61,12 @@ public class Level1 extends Level   {
         g.drawImage(image10, 420, 110, null);
         g.drawImage(image11, 60, 45, null);
         g.drawImage(image5, 420, 45, null);
-        g.drawImage(image13, 60, 350, null);
 
 
     }
 
 
 }
+
+
+

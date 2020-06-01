@@ -118,7 +118,7 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         buttonExit.addActionListener(this::exit);
 
         String audioFilePath = "data/sound/Megalovania.wav";
-        SoundPlayer player = new SoundPlayer();
+       SoundPlayer player = new SoundPlayer();
         player.play(audioFilePath);
 
 

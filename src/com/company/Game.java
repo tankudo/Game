@@ -13,7 +13,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Timer tm = new Timer(5, this);
     Level level = new Level1();
     Player player = new Player();
-
+    BonusFruit bonusFruit = new BonusFruit();
 
     public Game() {
         tm.start();
@@ -21,13 +21,17 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
 
-
     }
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         level.paintComponent(g);
         player.paintComponent(g);
+        bonusFruit.paintComponent(g);
+        if (player.getX() == 30 && player.getY() == 415) {
+            bonusFruit.setCpuX(-100);
+            bonusFruit.setCpuY(-100);
+        }
         System.out.println("game run");
         tm.start();
     }
@@ -59,13 +63,15 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     }
 
     public void window() {
+        Elevator elevator=new Elevator();
         Game t = new Game();
         JFrame jf = new JFrame();
         jf.setTitle("GAME");
-        jf.setSize(810, 495);
+        jf.setSize(810, 495); //todo change "y" to get a head for score calculation
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.add(t);
+      //   jf.add(elevator);
     }
 
 

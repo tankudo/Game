@@ -28,9 +28,9 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         level.paintComponent(g);
         player.paintComponent(g);
         bonusFruit.paintComponent(g);
-        if (player.getX() == 30 && player.getY() == 415) {
-            bonusFruit.setCpuX(-100);
-            bonusFruit.setCpuY(-100);
+        if (player.getX() == 30 && player.getY() == 515) {
+            bonusFruit.setCpuX(-1000);
+            bonusFruit.setCpuY(-1000);
         }
         System.out.println("game run");
         tm.start();
@@ -59,14 +59,13 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
     public void window() {
         Game t = new Game();
         JFrame jf = new JFrame();
         jf.setTitle("GAME");
-        jf.setSize(810, 495); //todo change "y" to get a head for score calculation
+        jf.setSize(810, 595);
         jf.setVisible(true);
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jf.add(t);

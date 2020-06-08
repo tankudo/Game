@@ -5,7 +5,7 @@ import java.awt.*;
 public class BonusFruit {
     private Image image13;
 
-    int cpuX = 60, cpuY = 415;
+    int cpuX = 60, cpuY = 515;
 
     public BonusFruit() {
 

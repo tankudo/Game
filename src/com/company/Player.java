@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class Player extends Entity{
 
-    int x = 0, y = 415, velX = 0;
+    int x = 0, y = 515, velX = 0;
     Image walkLeft;
     Image walkRight;
     Image idleByRight;
@@ -26,8 +26,15 @@ public class Player extends Entity{
     }
 
     public void paintComponent(Graphics g) {
+        //bonus data on the screen can be done with JLable too
+        Graphics2D g2 = (Graphics2D) g;
+        g2.setColor(Color.white);
+        g2.setFont(new Font("arial", Font.BOLD, 20));
+        g2.drawString("Bonus = " + x, 50, 50);
+
         if(velX == 0 && x == 769){
             g.drawImage(idleByLeft,x,y,null);
+
         }
         else if(velX == 0 && x == 1){
             g.drawImage(idleByRight,x,y,null);
@@ -54,23 +61,23 @@ public class Player extends Entity{
             velX = 0;
             x = 769;
         }
-        if (x == 769 && y == 415) {
-            y = 345;
+        if (x == 769 && y == 515) {
+            y = 445;
         }
-        if (x == 1 && y == 345) {
-            y = 275;
+        if (x == 1 && y == 445) {
+            y = 375;
         }
-        if (x == 769 && y == 275) {
-            y = 205;
+        if (x == 769 && y == 375) {
+            y = 305;
         }
-        if (x == 1 && y == 205) {
-            y = 135;
+        if (x == 1 && y == 305) {
+            y = 235;
         }
-        if (x == 769 && y == 135) {
-            y = 65;
+        if (x == 769 && y == 235) {
+            y = 165;
         }
-        if (x == 1 && y == 65) {
-            y = 5;
+        if (x == 1 && y == 165) {
+            y = 105;
         }
         x = x + velX;
     }

@@ -19,6 +19,7 @@ public class MenuPanel extends Menu {
 
     @Override
     public void paintComponent(Graphics g) {
+
         g.drawImage(menubackground, 0, 0, null);
     }
 

@@ -41,26 +41,26 @@ public class Level1 extends Level {
         System.out.println("Level1");
         g.drawImage(background, 0, 0, null);
 
-        g.drawImage(image12, 770, 390, null);
-        g.drawImage(image12, 0, 320, null);
-        g.drawImage(image12, 770, 250, null);
-        g.drawImage(image12, 0, 180, null);
-        g.drawImage(image12, 770, 110, null);
-        g.drawImage(image12, 0, 40, null);
+        g.drawImage(image12, 770, 490, null);
+        g.drawImage(image12, 0, 420, null);
+        g.drawImage(image12, 770, 350, null);
+        g.drawImage(image12, 0, 280, null);
+        g.drawImage(image12, 770, 210, null);
+        g.drawImage(image12, 0, 140, null);
 
 
-        g.drawImage(image0, 0, 390, null);
-        g.drawImage(image6, 420, 390, null);
-        g.drawImage(image7, 60, 320, null);
-        g.drawImage(image1, 420, 320, null);
-        g.drawImage(image2, 0, 250, null);
-        g.drawImage(image8, 420, 250, null);
-        g.drawImage(image9, 60, 180, null);
-        g.drawImage(image3, 420, 180, null);
-        g.drawImage(image4, 0, 110, null);
-        g.drawImage(image10, 420, 110, null);
-        g.drawImage(image11, 60, 45, null);
-        g.drawImage(image5, 420, 45, null);
+        g.drawImage(image0, 0, 490, null);
+        g.drawImage(image6, 420, 490, null);
+        g.drawImage(image7, 60, 420, null);
+        g.drawImage(image1, 420, 420, null);
+        g.drawImage(image2, 0, 350, null);
+        g.drawImage(image8, 420, 350, null);
+        g.drawImage(image9, 60, 280, null);
+        g.drawImage(image3, 420, 280, null);
+        g.drawImage(image4, 0, 210, null);
+        g.drawImage(image10, 420, 210, null);
+        g.drawImage(image11, 60, 145, null);
+        g.drawImage(image5, 420, 145, null);
 
 
     }

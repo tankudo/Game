@@ -43,6 +43,8 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     @Override
     public void actionPerformed(ActionEvent e) {
+
+
         repaint();
     }
 
@@ -55,8 +57,12 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     public void newGame(ActionEvent event) {
         if (event.getActionCommand().equals("NEW GAME")) {
+          //  menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
             Game game = new Game();
             game.window();
+            menuJ.setVisible(false);
+
 
         }
     }
@@ -93,6 +99,7 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         menuJ.setSize(810, 495);
         menuJ.setVisible(true);
         menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menuJ.setLocationRelativeTo(null);
 
         MenuRunner panel = new MenuRunner();
         panel.setLayout(null);
@@ -118,8 +125,8 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         buttonExit.addActionListener(this::exit);
 
         String audioFilePath = "data/sound/Megalovania.wav";
-       SoundPlayer player = new SoundPlayer();
-        player.play(audioFilePath);
+     //  SoundPlayer player = new SoundPlayer();
+     //   player.play(audioFilePath);
 
 
     }

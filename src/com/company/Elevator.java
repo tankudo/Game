@@ -9,7 +9,7 @@ public  class Elevator extends Entity {
 
     Image elevator;
 
-    public Elevator() {
+     Elevator() {
 
         elevator = Toolkit.getDefaultToolkit().createImage("data/picture/le40x40.png");
     }
@@ -31,5 +31,13 @@ public  class Elevator extends Entity {
 
     public int getY() {
         return y;
+    }
+
+    public void setVelY(int velY) {
+        this.velY = velY;
+    }
+
+    public Rectangle bounds(){
+        return (new Rectangle(x,y,50,50));
     }
 }

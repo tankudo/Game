@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/gif/menuPicture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/bullet2le.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/bullet40x56le.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/fel40x40.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/le40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/próba.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/testbullet.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Entity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BonusFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BonusFruit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MenuRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
@@ -184,11 +169,12 @@
       <workItem from="1591251555096" duration="3568000" />
       <workItem from="1591338881066" duration="1792000" />
       <workItem from="1591597391784" duration="1587000" />
+      <workItem from="1591634349293" duration="9430000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -198,10 +184,11 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="428" y="124" width="800" height="677" key="#Project_Structure/67.27.1533.873@67.27.1533.873" timestamp="1590869855107" />
-    <state x="-827" y="168" width="333" height="479" key="#com.intellij.ide.util.MemberChooser" timestamp="1591049357315">
-      <screen x="-1920" y="-64" width="1920" height="1050" />
+    <state x="911" y="190" width="333" height="479" key="#com.intellij.ide.util.MemberChooser" timestamp="1591638695387">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-827" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591049357315" />
+    <state x="911" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591638695387" />
     <state x="641" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595895835" />
     <state x="940" y="220" width="333" height="479" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1590946321862" />
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590675946811">
@@ -213,35 +200,35 @@
     </state>
     <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590599057804" />
     <state x="740" y="280" key="FileChooserDialogImpl/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591251596811" />
-    <state width="1877" height="178" key="GridCell.Tab.0.bottom" timestamp="1591632860400">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="132" key="GridCell.Tab.0.bottom" timestamp="1591643750412">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
+    <state width="1557" height="132" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643750412" />
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="102" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
     <state width="1487" height="191" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1591031317835" />
-    <state width="1877" height="178" key="GridCell.Tab.0.center" timestamp="1591632860400">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="132" key="GridCell.Tab.0.center" timestamp="1591643750411">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
+    <state width="1557" height="132" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643750411" />
     <state width="1877" height="178" key="GridCell.Tab.0.center/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="102" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
     <state width="1487" height="191" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1591031317802" />
-    <state width="1877" height="178" key="GridCell.Tab.0.left" timestamp="1591632860399">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="132" key="GridCell.Tab.0.left" timestamp="1591643750411">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391038" />
-    <state width="1557" height="273" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
+    <state width="1557" height="132" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643750411" />
     <state width="1877" height="178" key="GridCell.Tab.0.left/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860399" />
     <state width="1487" height="102" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
     <state width="1487" height="191" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1591031317785" />
-    <state width="1877" height="178" key="GridCell.Tab.0.right" timestamp="1591632860400">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1557" height="132" key="GridCell.Tab.0.right" timestamp="1591643750411">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
+    <state width="1557" height="132" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643750411" />
     <state width="1877" height="178" key="GridCell.Tab.0.right/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="102" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
     <state width="1487" height="191" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1591031317829" />
@@ -273,6 +260,10 @@
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
     <state x="-1578" y="81" key="new project wizard/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591098379193" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1591643742425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643742425" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MatrixGame$GameRunner.ic" NAME="GameRunner Coverage Results" MODIFIED="1590870017406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

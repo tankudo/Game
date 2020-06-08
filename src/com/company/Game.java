@@ -15,6 +15,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Player player = new Player();
     BonusFruit bonusFruit = new BonusFruit();
     Elevator elevator = new Elevator();
+    boolean collision;
 
 
     public Game() {
@@ -23,11 +24,15 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
     }
-
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         level.paintComponent(g);
-        player.paintComponent(g);
+        if(collision){
+            player.die(g);
+        }
+        else{
+            player.paintComponent(g);
+        }
         elevator.paintComponent(g);
         bonusFruit.paintComponent(g);
         if (player.getX() == 30 && player.getY() == 515) {
@@ -44,9 +49,13 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        elevator.update();
-        player.update();
+        collision();
         repaint();
+        if(!collision){
+            elevator.update();
+            player.update();
+        }
+
     }
 
 
@@ -81,6 +90,21 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         jf.add(t);
 
     }
+    public void collision(){
+        Rectangle rect1 = player.bounds();
+        Rectangle rect2 = elevator.bounds();
+        if(rect1.intersects(rect2)){
+            collision = true;
 
+            System.out.println("COLLOSION........................");
+        }
+        else{
+            collision = false;
+            player.collosion(collision);
+        }
+    }
 
+    public boolean isCollision() {
+        return collision;
+    }
 }

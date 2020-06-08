@@ -1,8 +1,10 @@
 package com.company;
 
+import javax.swing.*;
 import java.awt.*;
+import java.awt.image.ImageObserver;
 
-public class Player extends Entity{
+public class Player extends Entity {
 
     int x = 0, y = 515, velX = 0;
     Image walkLeft;
@@ -10,19 +12,29 @@ public class Player extends Entity{
     Image idleByRight;
     Image idleByLeft;
     Image deadLeft;
-    Image standRight;
+    Image deadRight;
     Image jumpLeft;
     Image jumpRight;
 
-    Player(){
+    Player() {
         walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
         walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/walkRight.gif");
         idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/idleByRight.gif");
         idleByLeft = Toolkit.getDefaultToolkit().createImage("data/gif/idleByLeft.gif");
         deadLeft = Toolkit.getDefaultToolkit().createImage("data/gif/deadLeft.gif");
-        standRight = Toolkit.getDefaultToolkit().createImage("data/gif/deadRight.gif");
+        deadRight = Toolkit.getDefaultToolkit().createImage("data/gif/deadRight.gif");
         jumpLeft = Toolkit.getDefaultToolkit().createImage("data/gif/jumpLeft.gif");
         jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
+
+    }
+
+    public void die(Graphics g) {
+        Graphics2D g2 = (Graphics2D) g;
+        if (velX < 0) {
+            g.drawImage(deadLeft, x, y, null);
+        } else {
+            g.drawImage(deadRight, x, y, null);
+        }
     }
 
     public void paintComponent(Graphics g) {
@@ -32,23 +44,24 @@ public class Player extends Entity{
         g2.setFont(new Font("arial", Font.BOLD, 20));
         g2.drawString("Bonus = " + x, 50, 50);
 
-        if(velX == 0 && x == 769){
-            g.drawImage(idleByLeft,x,y,null);
+        if (velX == 0 && x == 769) {
+            g.drawImage(idleByLeft, x, y, null);
 
-        }
-        else if(velX == 0 && x == 1){
-            g.drawImage(idleByRight,x,y,null);
-        }
-        else if(velX > 0) {
-            g.drawImage(walkRight,x,y,null);
-        }
-        else {
-            g.drawImage(walkLeft,x,y,null);
+        } else if (velX == 0 && x == 1) {
+            g.drawImage(idleByRight, x, y, null);
+        } else if (velX > 0) {
+            g.drawImage(walkRight, x, y, null);
+        } else {
+            g.drawImage(walkLeft, x, y, null);
         }
 
     }
 
-    public void update () {
+    public boolean collosion(boolean acollososion) {
+        return acollososion;
+    }
+
+    public void update() {
         if (x < 0 || x > 770) {
             velX = -velX;
         }
@@ -105,4 +118,10 @@ public class Player extends Entity{
     public void setVelX(int velX) {
         this.velX = velX;
     }
+
+    public Rectangle bounds() {
+        return (new Rectangle(x, y, 50, 50));
+    }
+
+
 }

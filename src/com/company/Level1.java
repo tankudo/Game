@@ -20,26 +20,26 @@ public class Level1 extends Level {
 
 
     public Level1() {
-        background = Toolkit.getDefaultToolkit().createImage("data/picture/b1.jpg");
-        image0 = Toolkit.getDefaultToolkit().createImage("data/gif/380A.gif");
-        image1 = Toolkit.getDefaultToolkit().createImage("data/gif/380B.gif");
-        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/380C.gif");
-        image3 = Toolkit.getDefaultToolkit().createImage("data/gif/380D.gif");
-        image4 = Toolkit.getDefaultToolkit().createImage("data/gif/380E.gif");
-        image5 = Toolkit.getDefaultToolkit().createImage("data/gif/380F.gif");
-        image6 = Toolkit.getDefaultToolkit().createImage("data/gif/320A.gif");
-        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/320B.gif");
-        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/320C.gif");
-        image9 = Toolkit.getDefaultToolkit().createImage("data/gif/320D.gif");
-        image10 = Toolkit.getDefaultToolkit().createImage("data/gif/320E.gif");
-        image11 = Toolkit.getDefaultToolkit().createImage("data/gif/320F.gif");
+        background = Toolkit.getDefaultToolkit().createImage("data/gif/cityBack.jpg");
+        image0 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image1 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image3 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image4 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image5 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image6 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image9 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image10 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image11 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
         image12 = Toolkit.getDefaultToolkit().createImage("data/gif/arrow.gif");
 
     }
 
     public void paintComponent(Graphics g) {
         System.out.println("Level1");
-        g.drawImage(background, 0, 0, null);
+        g.drawImage(background, 0, 70, null);
 
         g.drawImage(image12, 770, 490, null);
         g.drawImage(image12, 0, 420, null);

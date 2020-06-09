@@ -1,4 +1,6 @@
 package com.company;
 
-public abstract class Entity {
+
+public abstract class Entity  {
+
 }

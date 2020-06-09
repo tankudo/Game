@@ -3,6 +3,9 @@ package com.company;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.ImageObserver;
+import java.util.Scanner;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Player extends Entity {
 
@@ -15,8 +18,22 @@ public class Player extends Entity {
     Image deadRight;
     Image jumpLeft;
     Image jumpRight;
+    static int interval = 100;
+    static Timer timer;
+    int delay = 1000;
+    int period = 1000;
+    int score = interval; // ezt kell kimentened DR. SIKURA
+
 
     Player() {
+        timer = new java.util.Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                System.out.println(setInterval());
+
+            }
+        },delay, period);
         walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
         walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/walkRight.gif");
         idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/idleByRight.gif");
@@ -27,10 +44,22 @@ public class Player extends Entity {
         jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
 
     }
+    private  final int setInterval(){
+        // x =769 y =105
+        if(interval <= 0 || (x == 769 && y == 105)){
 
+            timer.cancel();
+            score = interval;
+            System.out.println(score + "eredmeny");
+            return 0;
+        }
+        else {
+            return --interval;
+        }
+    }
     public void die(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
-        if (velX < 0) {
+        if (velX <= 0) {
             g.drawImage(deadLeft, x, y, null);
         } else {
             g.drawImage(deadRight, x, y, null);
@@ -40,9 +69,9 @@ public class Player extends Entity {
     public void paintComponent(Graphics g) {
         //bonus data on the screen can be done with JLable too
         Graphics2D g2 = (Graphics2D) g;
-        g2.setColor(Color.white);
+        g2.setColor(Color.black);
         g2.setFont(new Font("arial", Font.BOLD, 20));
-        g2.drawString("Bonus = " + x, 50, 50);
+        g2.drawString("Bonus = " + interval, 50, 50);
 
         if (velX == 0 && x == 769) {
             g.drawImage(idleByLeft, x, y, null);
@@ -93,6 +122,7 @@ public class Player extends Entity {
             y = 105;
         }
         x = x + velX;
+
     }
 
     public int getX() {
@@ -123,5 +153,11 @@ public class Player extends Entity {
         return (new Rectangle(x, y, 50, 50));
     }
 
+    public  int getInterval() {
+        return interval;
+    }
 
+    public  void setInterval(int interval) {
+        Player.interval = interval;
+    }
 }

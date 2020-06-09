@@ -38,6 +38,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         if (player.getX() == 30 && player.getY() == 515) {
             bonusFruit.setCpuX(-1000);
             bonusFruit.setCpuY(-1000);
+            player.setInterval(player.getInterval()+5);
         }
         if (player.getX()==elevator.getX() && player.getY()==elevator.getY() ) {
             System.exit(0);

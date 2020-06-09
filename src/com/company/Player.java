@@ -15,9 +15,9 @@ public class Player extends Entity{
     Image jumpRight;
 
     Player(){
-        walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
-        walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/walkRight.gif");
-        idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/idleByRight.gif");
+        walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/80X80OriB.gif");
+        walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/80X80OriJ.gif");
+        idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/100J.gif");
         idleByLeft = Toolkit.getDefaultToolkit().createImage("data/gif/idleByLeft.gif");
         deadLeft = Toolkit.getDefaultToolkit().createImage("data/gif/deadLeft.gif");
         standRight = Toolkit.getDefaultToolkit().createImage("data/gif/deadRight.gif");
@@ -104,5 +104,10 @@ public class Player extends Entity{
 
     public void setVelX(int velX) {
         this.velX = velX;
+    }
+
+
+    public Rectangle bounds (){
+        return (new Rectangle(x,y,50,50));
     }
 }

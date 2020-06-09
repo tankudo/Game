@@ -96,9 +96,11 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
         menuJ = new JFrame();
         menuJ.setTitle("MENU");
-        menuJ.setSize(810, 495);
+        menuJ.setSize(810, 485);
         menuJ.setVisible(true);
         menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menuJ.setLocationRelativeTo(null);
+        menuJ.setResizable(false);
         menuJ.setLocationRelativeTo(null);
 
         MenuRunner panel = new MenuRunner();
@@ -109,24 +111,28 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         buttonNewGame.setBounds(260, 150, 250, 40);
         buttonNewGame.setFont(new Font("Bauhaus 93", Font.BOLD, 28));
         buttonNewGame.setForeground(Color.BLACK);
+        buttonNewGame.setBackground(new Color(0.6f, 0.6f, 0.6f, 0.6f));
         panel.add(buttonNewGame);
         buttonNewGame.addActionListener(this::newGame);
 
         buttonScore.setBounds(260, 250, 250, 40);
         buttonScore.setFont(new Font("Bauhaus 93", Font.BOLD, 28));
         buttonScore.setForeground(Color.BLACK);
+        buttonScore.setBackground(new Color(0.6f, 0.6f, 0.6f, 0.6f));
         panel.add(buttonScore);
+
         buttonScore.addActionListener(this::score);
 
         buttonExit.setBounds(260, 350, 250, 40);
         buttonExit.setFont(new Font("Bauhaus 93", Font.BOLD, 28));
         buttonExit.setForeground(Color.BLACK);
+        buttonExit.setBackground(new Color(0.6f, 0.6f, 0.6f, 0.6f));
         panel.add(buttonExit);
         buttonExit.addActionListener(this::exit);
 
         String audioFilePath = "data/sound/Megalovania.wav";
-     //  SoundPlayer player = new SoundPlayer();
-     //   player.play(audioFilePath);
+       //SoundPlayer player = new SoundPlayer();
+       // player.play(audioFilePath);
 
 
     }

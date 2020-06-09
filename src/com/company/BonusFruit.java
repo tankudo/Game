@@ -9,7 +9,7 @@ public class BonusFruit {
 
     public BonusFruit() {
 
-        image13 = Toolkit.getDefaultToolkit().createImage("data/gif/cpu1.gif");
+        image13 = Toolkit.getDefaultToolkit().createImage("data/gif/orb2.gif");
 
     }
 

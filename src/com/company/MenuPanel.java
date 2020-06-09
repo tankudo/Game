@@ -12,7 +12,7 @@ public class MenuPanel extends Menu {
 
     public MenuPanel() {
 
-        menubackground = Toolkit.getDefaultToolkit().createImage("data/gif/test2.gif");
+        menubackground = Toolkit.getDefaultToolkit().createImage("data/gif/BC5.gif");
         System.out.println("Menulvl");
     }
 

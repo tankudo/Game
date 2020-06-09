@@ -11,7 +11,7 @@ public  class Elevator extends Entity {
 
     public Elevator() {
 
-        elevator = Toolkit.getDefaultToolkit().createImage("data/picture/le40x40.png");
+        elevator = Toolkit.getDefaultToolkit().createImage("data/picture/spider3.png");
     }
     public void paintComponent(Graphics g) {
         g.drawImage(elevator,x,y,null);
@@ -32,4 +32,10 @@ public  class Elevator extends Entity {
     public int getY() {
         return y;
     }
+
+
+    public Rectangle bounds (){
+        return (new Rectangle(x,y,50,50));
+    }
+
 }

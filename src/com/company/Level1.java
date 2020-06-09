@@ -20,7 +20,7 @@ public class Level1 extends Level {
 
 
     public Level1() {
-        background = Toolkit.getDefaultToolkit().createImage("data/picture/b1.jpg");
+        background = Toolkit.getDefaultToolkit().createImage("data/picture/image2.png");
         image0 = Toolkit.getDefaultToolkit().createImage("data/gif/380A.gif");
         image1 = Toolkit.getDefaultToolkit().createImage("data/gif/380B.gif");
         image2 = Toolkit.getDefaultToolkit().createImage("data/gif/380C.gif");
@@ -64,8 +64,6 @@ public class Level1 extends Level {
 
 
     }
-
-
 }
 
 

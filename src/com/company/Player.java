@@ -71,7 +71,7 @@ public class Player extends Entity {
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.black);
         g2.setFont(new Font("arial", Font.BOLD, 20));
-        g2.drawString("Bonus = " + interval, 50, 50);
+        g2.drawString("Score = " + interval, 50, 50);
 
         if (velX == 0 && x == 769) {
             g.drawImage(idleByLeft, x, y, null);

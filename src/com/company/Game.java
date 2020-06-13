@@ -21,14 +21,14 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     public Game() {
         for (int i = 1; i < 15; i++) {
-            BonusFruit fruit = new BonusFruit("bf" + i + ".gif");
+            BonusFruit fruit = new BonusFruit("data/gif/bf" +i + ".gif");
             bonusFruit.add(fruit);
             if (i % 2 != 0) {
                 fruit.setCpuX(60);
-                fruit.setCpuY(553 - i * 38);
+                fruit.setCpuY(550 - i * 35);
             } else {
-                fruit.setCpuX(769);
-                fruit.setCpuY(591 - i * 38);
+                fruit.setCpuX(690);
+                fruit.setCpuY(585 - i * 35);
             }
         }
         tm.start();

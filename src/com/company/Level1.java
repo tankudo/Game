@@ -38,7 +38,7 @@ public class Level1 extends Level {
     }
 
     public void paintComponent(Graphics g) {
-        System.out.println("Level1");
+
         g.drawImage(background, 0, 70, null);
 
         g.drawImage(image12, 770, 490, null);

@@ -18,10 +18,21 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     boolean collision;
     ArrayList<BonusFruit> bonusFruit = new ArrayList<>();
 
+    public void deleteFruit() {
+        ArrayList<BonusFruit> delFruit = new ArrayList<>();
+        for (BonusFruit fruit : bonusFruit) {
+            if (player.getX() == fruit.getCpuX() && player.getY() == fruit.getCpuY()) {
+                delFruit.add(fruit);
+            }
+        }
+        if (delFruit.size() > 0) {
+            delFruit.remove(0);
+        }
+    }
 
     public Game() {
         for (int i = 1; i < 15; i++) {
-            BonusFruit fruit = new BonusFruit("data/gif/bf" +i + ".gif");
+            BonusFruit fruit = new BonusFruit("data/gif/bf" + i + ".gif");
             bonusFruit.add(fruit);
             if (i % 2 != 0) {
                 fruit.setCpuX(60);
@@ -31,6 +42,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
                 fruit.setCpuY(585 - i * 35);
             }
         }
+        deleteFruit();
         tm.start();
         addKeyListener(this);
         setFocusable(true);
@@ -49,17 +61,18 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         for (BonusFruit fruit : bonusFruit) {
             fruit.paintComponent(g);
         }
+        for (BonusFruit fruit : bonusFruit) {
+            if (player.getX() == fruit.getCpuX() && player.getY() == fruit.getCpuY()) {
+                bonusFruit.remove(fruit);
+                player.setInterval(player.getInterval() + 5);
+            }
+            if (player.getX() == elevator.getX() && player.getY() == elevator.getY()) {
+                System.exit(0);
+            }
 
-        if (player.getX() == 30 && player.getY() == 515) {
-
-            player.setInterval(player.getInterval() + 5);
+            tm.start();
         }
-        if (player.getX() == elevator.getX() && player.getY() == elevator.getY()) {
-            System.exit(0);
-        }
 
-        System.out.println("game run");
-        tm.start();
     }
 
     @Override
@@ -111,8 +124,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         Rectangle rect2 = elevator.bounds();
         if (rect1.intersects(rect2)) {
             collision = true;
-
-            System.out.println("COLLOSION........................");
         } else {
             collision = false;
             player.collosion(collision);

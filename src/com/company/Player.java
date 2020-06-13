@@ -119,7 +119,7 @@ public class Player extends Entity {
             y = 165;
         }
         if (x == 1 && y == 165) {
-            y = 105;
+            y = 95;
         }
         x = x + velX;
 

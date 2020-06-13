@@ -59,8 +59,8 @@ public class Level1 extends Level {
         g.drawImage(image3, 420, 280, null);
         g.drawImage(image4, 0, 210, null);
         g.drawImage(image10, 420, 210, null);
-        g.drawImage(image11, 60, 145, null);
-        g.drawImage(image5, 420, 145, null);
+        g.drawImage(image11, 60, 135, null);
+        g.drawImage(image5, 420, 135, null);
 
 
     }

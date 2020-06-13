@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Game extends JPanel implements ActionListener, KeyListener {
 
@@ -17,18 +18,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Elevator elevator = new Elevator();
     boolean collision;
     ArrayList<BonusFruit> bonusFruit = new ArrayList<>();
-
-    public void deleteFruit() {
-        ArrayList<BonusFruit> delFruit = new ArrayList<>();
-        for (BonusFruit fruit : bonusFruit) {
-            if (player.getX() == fruit.getCpuX() && player.getY() == fruit.getCpuY()) {
-                delFruit.add(fruit);
-            }
-        }
-        if (delFruit.size() > 0) {
-            delFruit.remove(0);
-        }
-    }
 
     public Game() {
         for (int i = 1; i < 15; i++) {
@@ -42,7 +31,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
                 fruit.setCpuY(585 - i * 35);
             }
         }
-        deleteFruit();
         tm.start();
         addKeyListener(this);
         setFocusable(true);
@@ -61,9 +49,12 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         for (BonusFruit fruit : bonusFruit) {
             fruit.paintComponent(g);
         }
-        for (BonusFruit fruit : bonusFruit) {
+
+        Iterator<BonusFruit> bonusFruitIterator = bonusFruit.iterator();
+        while(bonusFruitIterator.hasNext()) {
+            BonusFruit fruit = bonusFruitIterator.next();
             if (player.getX() == fruit.getCpuX() && player.getY() == fruit.getCpuY()) {
-                bonusFruit.remove(fruit);
+                bonusFruitIterator.remove();
                 player.setInterval(player.getInterval() + 5);
             }
             if (player.getX() == elevator.getX() && player.getY() == elevator.getY()) {

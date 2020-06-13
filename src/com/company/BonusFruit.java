@@ -3,19 +3,21 @@ package com.company;
 import java.awt.*;
 
 public class BonusFruit {
-    private Image image13;
 
-    int cpuX = 60, cpuY = 515;
+    private Image image;
 
-    public BonusFruit() {
+    int cpuX, cpuY; //60 , 515
 
-        image13 = Toolkit.getDefaultToolkit().createImage("data/gif/cpu1.gif");
+    public BonusFruit(String file) {
+
+        image = Toolkit.getDefaultToolkit().createImage(file); // "data/gif/cpu1.gif"
 
     }
 
-    public void paintComponent(Graphics g){
-        g.drawImage(image13, getCpuX(), getCpuY(), null);
+    public void paintComponent(Graphics g) {
+        g.drawImage(image, getCpuX(), getCpuY(), null);
     }
+
     public int getCpuX() {
         return cpuX;
     }

@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Stopwatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/bf9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/rArrow.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/BonusFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BonusFruit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,18 +89,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/gif" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/gif" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/gif" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GameRunner">
@@ -186,6 +202,7 @@
       <workItem from="1591646523391" duration="3108000" />
       <workItem from="1591649763448" duration="687000" />
       <workItem from="1591686104912" duration="1956000" />
+      <workItem from="1592077083442" duration="2363000" />
     </task>
     <servers />
   </component>
@@ -221,58 +238,62 @@
     <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590599057804" />
     <state x="740" y="280" key="FileChooserDialogImpl/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591251596811" />
     <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591698098752" />
-    <state width="1557" height="368" key="GridCell.Tab.0.bottom" timestamp="1591728881946">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1487" height="220" key="GridCell.Tab.0.bottom" timestamp="1592080369604">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="157" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
-    <state width="1487" height="191" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1591031317835" />
-    <state width="1557" height="368" key="GridCell.Tab.0.center" timestamp="1591728881945">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1487" height="220" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1592080369604" />
+    <state width="1487" height="220" key="GridCell.Tab.0.center" timestamp="1592080369604">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
     <state width="1877" height="178" key="GridCell.Tab.0.center/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="157" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
-    <state width="1487" height="191" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1591031317802" />
-    <state width="1557" height="368" key="GridCell.Tab.0.left" timestamp="1591728881945">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1487" height="220" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1592080369604" />
+    <state width="1487" height="220" key="GridCell.Tab.0.left" timestamp="1592080369603">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391038" />
     <state width="1557" height="368" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
     <state width="1877" height="178" key="GridCell.Tab.0.left/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860399" />
     <state width="1487" height="157" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
-    <state width="1487" height="191" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1591031317785" />
-    <state width="1557" height="368" key="GridCell.Tab.0.right" timestamp="1591728881946">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1487" height="220" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1592080369603" />
+    <state width="1487" height="220" key="GridCell.Tab.0.right" timestamp="1592080369604">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
     <state width="1877" height="178" key="GridCell.Tab.0.right/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591632860400" />
     <state width="1487" height="157" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
-    <state width="1487" height="191" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1591031317829" />
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1590872735264">
+    <state width="1487" height="220" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1592080369604" />
+    <state width="1487" height="220" key="GridCell.Tab.1.bottom" timestamp="1592080369606">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1590872735264" />
-    <state width="1487" height="272" key="GridCell.Tab.1.center" timestamp="1590872735263">
+    <state width="1487" height="220" key="GridCell.Tab.1.bottom/67.27.1533.873@67.27.1533.873" timestamp="1592080369606" />
+    <state width="1487" height="220" key="GridCell.Tab.1.center" timestamp="1592080369605">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1590872735263" />
-    <state width="1487" height="272" key="GridCell.Tab.1.left" timestamp="1590872735263">
+    <state width="1487" height="220" key="GridCell.Tab.1.center/67.27.1533.873@67.27.1533.873" timestamp="1592080369605" />
+    <state width="1487" height="220" key="GridCell.Tab.1.left" timestamp="1592080369605">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1590872735263" />
-    <state width="1487" height="272" key="GridCell.Tab.1.right" timestamp="1590872735264">
+    <state width="1487" height="220" key="GridCell.Tab.1.left/67.27.1533.873@67.27.1533.873" timestamp="1592080369605" />
+    <state width="1487" height="220" key="GridCell.Tab.1.right" timestamp="1592080369606">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
-    <state width="1487" height="272" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1590872735264" />
+    <state width="1487" height="220" key="GridCell.Tab.1.right/67.27.1533.873@67.27.1533.873" timestamp="1592080369606" />
     <state x="280" y="4" key="SettingsEditor" timestamp="1590846019798">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590846019798" />
+    <state width="766" height="437" key="XDebugger.FullValuePopup" timestamp="1592080261192">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state width="766" height="437" key="XDebugger.FullValuePopup/67.27.1533.873@67.27.1533.873" timestamp="1592080261191" />
     <state x="-1264" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591080754576">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
@@ -293,6 +314,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591725197994" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Game.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Game.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MatrixGame$GameRunner.ic" NAME="GameRunner Coverage Results" MODIFIED="1590870017406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

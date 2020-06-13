@@ -33,7 +33,7 @@ public class Level1 extends Level {
         image9 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
         image10 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
         image11 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image12 = Toolkit.getDefaultToolkit().createImage("data/gif/arrow.gif");
+        image12 = Toolkit.getDefaultToolkit().createImage("data/gif/rArrow.gif");
 
     }
 
@@ -42,11 +42,11 @@ public class Level1 extends Level {
         g.drawImage(background, 0, 70, null);
 
         g.drawImage(image12, 770, 490, null);
-        g.drawImage(image12, 0, 420, null);
+        g.drawImage(image12, 5, 420, null);
         g.drawImage(image12, 770, 350, null);
-        g.drawImage(image12, 0, 280, null);
+        g.drawImage(image12, 5, 280, null);
         g.drawImage(image12, 770, 210, null);
-        g.drawImage(image12, 0, 140, null);
+        g.drawImage(image12, 5, 140, null);
 
 
         g.drawImage(image0, 0, 490, null);

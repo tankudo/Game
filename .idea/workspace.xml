@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/gif/100J.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/80X80OriB.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/80X80OriJ.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/BC.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/BC2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/BC3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/BC5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/orb.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/gif/orb2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/image5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/spider.png.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/picture/spider3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eredmeny.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/cityBack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/cityBack2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/wall320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/wall380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Stopwatch$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Stopwatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Stopwatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/WriteFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/BonusFruit.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/BonusFruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/BonusFruit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/MenuRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
@@ -82,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/picture" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -93,21 +87,21 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\gif" />
-      <recent name="$PROJECT_DIR$/data" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/gif" />
-      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/gif" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
+      <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameRunner">
+  <component name="RunManager" selected="Application.WriteFile">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Game" />
       <module name="MatrixGame" />
@@ -134,16 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="MatrixGame" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SoundPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.SoundPlayer" />
       <module name="MatrixGame" />
@@ -157,9 +141,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stopwatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Stopwatch" />
+      <module name="MatrixGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.WriteFile" />
+      <module name="MatrixGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriteFile" />
         <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.Stopwatch" />
         <item itemvalue="Application.SoundPlayer" />
         <item itemvalue="Application.Game" />
       </list>
@@ -187,9 +199,14 @@
       <workItem from="1591165206981" duration="1072000" />
       <workItem from="1591251555096" duration="3568000" />
       <workItem from="1591338881066" duration="1792000" />
-      <workItem from="1591597391784" duration="14081000" />
-      <workItem from="1591684239154" duration="9688000" />
-      <workItem from="1591714985279" duration="3711000" />
+      <workItem from="1591597391784" duration="1587000" />
+      <workItem from="1591634349293" duration="9430000" />
+      <workItem from="1591646523391" duration="3108000" />
+      <workItem from="1591649763448" duration="687000" />
+      <workItem from="1591686104912" duration="1956000" />
+      <workItem from="1591730341757" duration="1772000" />
+      <workItem from="1591772096118" duration="2879000" />
+      <workItem from="1591857569741" duration="794000" />
     </task>
     <servers />
   </component>
@@ -204,52 +221,58 @@
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="428" y="124" width="800" height="677" key="#Project_Structure/67.27.1533.873@67.27.1533.873" timestamp="1590869855107" />
-    <state x="-827" y="168" width="333" height="479" key="#com.intellij.ide.util.MemberChooser" timestamp="1591049357315">
-      <screen x="-1920" y="-64" width="1920" height="1050" />
+    <state x="911" y="190" width="333" height="479" key="#com.intellij.ide.util.MemberChooser" timestamp="1591723746320">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="-827" y="168" key="#com.intellij.ide.util.MemberChooser/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591049357315" />
+    <state x="911" y="190" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591723746320" />
     <state x="641" y="175" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595895835" />
     <state x="940" y="220" width="333" height="479" key="#com.intellij.ide.util.MemberChooser/67.27.1533.873@67.27.1533.873" timestamp="1590946321862" />
+    <state x="674" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591646559103">
+      <screen x="67" y="27" width="1533" height="873" />
+    </state>
+    <state x="674" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591646559103" />
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590675946811">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590675946811" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1591251596811">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591698098752">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590599057804" />
     <state x="740" y="280" key="FileChooserDialogImpl/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591251596811" />
-    <state width="1877" height="162" key="GridCell.Tab.0.bottom" timestamp="1591719917028">
+    <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591698098752" />
+    <state width="1877" height="162" key="GridCell.Tab.0.bottom" timestamp="1591730651049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
-    <state width="1877" height="162" key="GridCell.Tab.0.bottom/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591719917028" />
-    <state width="1487" height="102" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1557" height="368" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
+    <state width="1877" height="162" key="GridCell.Tab.0.bottom/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591730651049" />
+    <state width="1487" height="157" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
     <state width="1487" height="191" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1591031317835" />
-    <state width="1877" height="162" key="GridCell.Tab.0.center" timestamp="1591719917027">
+    <state width="1877" height="162" key="GridCell.Tab.0.center" timestamp="1591730651049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
-    <state width="1877" height="162" key="GridCell.Tab.0.center/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591719917027" />
-    <state width="1487" height="102" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1557" height="368" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
+    <state width="1877" height="162" key="GridCell.Tab.0.center/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591730651049" />
+    <state width="1487" height="157" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
     <state width="1487" height="191" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1591031317802" />
-    <state width="1877" height="162" key="GridCell.Tab.0.left" timestamp="1591719917027">
+    <state width="1877" height="162" key="GridCell.Tab.0.left" timestamp="1591730651049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391038" />
-    <state width="1557" height="273" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
-    <state width="1877" height="162" key="GridCell.Tab.0.left/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591719917027" />
-    <state width="1487" height="102" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1557" height="368" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
+    <state width="1877" height="162" key="GridCell.Tab.0.left/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591730651049" />
+    <state width="1487" height="157" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
     <state width="1487" height="191" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1591031317785" />
-    <state width="1877" height="162" key="GridCell.Tab.0.right" timestamp="1591719917028">
+    <state width="1877" height="162" key="GridCell.Tab.0.right" timestamp="1591730651049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
-    <state width="1557" height="273" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590864353855" />
-    <state width="1877" height="162" key="GridCell.Tab.0.right/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591719917028" />
-    <state width="1487" height="102" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1590595905637" />
+    <state width="1557" height="368" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
+    <state width="1877" height="162" key="GridCell.Tab.0.right/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591730651049" />
+    <state width="1487" height="157" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591718504362" />
     <state width="1487" height="191" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1591031317829" />
     <state width="1487" height="272" key="GridCell.Tab.1.bottom" timestamp="1590872735264">
       <screen x="67" y="27" width="1533" height="873" />
@@ -271,14 +294,27 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1590846019798" />
-    <state x="-1264" y="285" key="com.intellij.ide.util.TipDialog" timestamp="1591080754576">
-      <screen x="-1920" y="-64" width="1920" height="1050" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1591802598784">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="-1264" y="285" key="com.intellij.ide.util.TipDialog/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591080754576" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1591802598784" />
+    <state x="1795" y="164" width="1092" height="847" key="dock-window-1" timestamp="1591727686219">
+      <screen x="1600" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1795" y="164" width="1092" height="847" key="dock-window-1/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591727686219" />
     <state x="-1578" y="81" key="new project wizard" timestamp="1591098379193">
       <screen x="-1920" y="-64" width="1920" height="1050" />
     </state>
     <state x="-1578" y="81" key="new project wizard/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591098379193" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1591643742425">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591643742425" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1591725197994">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591725197994" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MatrixGame$GameRunner.ic" NAME="GameRunner Coverage Results" MODIFIED="1590870017406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

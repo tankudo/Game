@@ -62,7 +62,7 @@ public class Player extends Entity {
         //bonus data on the screen can be done with JLable too
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.black);
-        g2.setFont(new Font("arial", Font.BOLD, 20));
+        g2.setFont(new Font("Bauhaus 93", Font.BOLD, 20));
         g2.drawString("Time Elapsed = " + scoreCounter()+" sec", 50, 50);
 
         if (velX == 0 && x == 769) {

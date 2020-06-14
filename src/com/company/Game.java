@@ -17,6 +17,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     Player player = new Player();
     Elevator elevator = new Elevator();
     boolean collision;
+
     ArrayList<BonusFruit> bonusFruit = new ArrayList<>();
 
     public Game() {
@@ -42,6 +43,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         level.paintComponent(g);
         if (collision) {
             player.die(g);
+
         } else {
             player.paintComponent(g);
         }
@@ -54,14 +56,18 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         while(bonusFruitIterator.hasNext()) {
             BonusFruit fruit = bonusFruitIterator.next();
             if (player.getX() == fruit.getCpuX() && player.getY() == fruit.getCpuY()) {
+                player.setScore(player.getScore()+10);
                 bonusFruitIterator.remove();
-                player.setInterval(player.getInterval() + 20);
             }
             if (player.getX() == elevator.getX() && player.getY() == elevator.getY()) {
                 System.exit(0);
             }
 
             tm.start();
+        }
+        if(bonusFruit.isEmpty()){
+            player.levelCompletedRecognizer();
+            System.out.println(player.getFinalScore()+" final");
         }
 
     }

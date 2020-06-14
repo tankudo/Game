@@ -18,22 +18,16 @@ public class Player extends Entity {
     Image deadRight;
     Image jumpLeft;
     Image jumpRight;
-    static int interval = 100;
-    static Timer timer;
-    int delay = 1000;
-    int period = 1000;
-    int score = interval; // ezt kell kimentened DR. SIKURA
+    private final long createdMillis = System.currentTimeMillis();
+    int score;
+    int cnt;
+    boolean isDead;
+    int finalScore; //ez a pontja
+
 
 
     Player() {
-        timer = new java.util.Timer();
-        timer.scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run() {
-                System.out.println(setInterval());
 
-            }
-        },delay, period);
         walkLeft = Toolkit.getDefaultToolkit().createImage("data/gif/walkLeft.gif");
         walkRight = Toolkit.getDefaultToolkit().createImage("data/gif/walkRight.gif");
         idleByRight = Toolkit.getDefaultToolkit().createImage("data/gif/idleByRight.gif");
@@ -44,20 +38,12 @@ public class Player extends Entity {
         jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
 
     }
-    private  final int setInterval(){
-        // x =769 y =105
-        if(interval <= 0 || (x == 769 && y == 105)){
-
-            timer.cancel();
-            score = interval;
-            System.out.println(score + "eredmeny");
-            return 0;
-        }
-        else {
-            return --interval;
-        }
-    }
     public void die(Graphics g) {
+        cnt++;
+        if(cnt == 1){
+           finalScore = (60 - scoreCounter()) * score;
+        }
+        isDead = true;
         Graphics2D g2 = (Graphics2D) g;
         if (velX <= 0) {
             g.drawImage(deadLeft, x, y, null);
@@ -66,12 +52,18 @@ public class Player extends Entity {
         }
     }
 
+    public  int scoreCounter(){
+            long nowMillis = System.currentTimeMillis();
+            return (int)((nowMillis - this.createdMillis) / 1000);
+
+    }
+
     public void paintComponent(Graphics g) {
         //bonus data on the screen can be done with JLable too
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.black);
         g2.setFont(new Font("arial", Font.BOLD, 20));
-        g2.drawString("Score = " + interval, 50, 50);
+        g2.drawString("Time Elapsed = " + scoreCounter()+" sec", 50, 50);
 
         if (velX == 0 && x == 769) {
             g.drawImage(idleByLeft, x, y, null);
@@ -88,6 +80,12 @@ public class Player extends Entity {
 
     public boolean collosion(boolean acollososion) {
         return acollososion;
+    }
+    public void levelCompletedRecognizer(){
+        cnt++;
+        if(cnt == 1){
+            finalScore = (60 - scoreCounter()) * score;
+        }
     }
 
     public void update() {
@@ -153,11 +151,19 @@ public class Player extends Entity {
         return (new Rectangle(x, y, 50, 50));
     }
 
-    public  int getInterval() {
-        return interval;
+    public int getScore() {
+        return score;
     }
 
-    public  void setInterval(int interval) {
-        Player.interval = interval;
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public int getFinalScore() {
+        return finalScore;
+    }
+
+    public void setFinalScore(int finalScore) {
+        this.finalScore = finalScore;
     }
 }

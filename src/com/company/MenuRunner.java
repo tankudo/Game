@@ -14,12 +14,12 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
     JButton buttonScore;
     JButton buttonExit;
     JFrame menuJ;
-    boolean playCompleted;
+    Game game = new Game();
 
 
     Timer tm = new Timer(5, this);
-
     Menu menu = new MenuPanel();
+
 
 
     public MenuRunner() {
@@ -30,36 +30,31 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         this.buttonNewGame = new JButton("NEW GAME");
         this.buttonScore = new JButton("SCORE");
         this.buttonExit = new JButton("EXIT");
-
-
     }
+
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         menu.paintComponent(g);
+
         System.out.println("Menu run");
         tm.start();
     }
 
+
     @Override
     public void actionPerformed(ActionEvent e) {
-
-
         repaint();
     }
 
     public void exit(ActionEvent event) {
         if (event.getActionCommand().equals("EXIT")) {
-
             menuJ.dispatchEvent(new WindowEvent(menuJ, WindowEvent.WINDOW_CLOSING));
         }
     }
 
     public void newGame(ActionEvent event) {
         if (event.getActionCommand().equals("NEW GAME")) {
-          //  menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-            Game game = new Game();
             game.window();
             menuJ.setVisible(false);
 
@@ -69,8 +64,8 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     public void score(ActionEvent event) {
         if (event.getActionCommand().equals("SCORE")) {
-
-
+            MenuScoreRunner menuScoreRunner=new MenuScoreRunner();
+            menuScoreRunner.scoreMenu();
         }
     }
 
@@ -81,19 +76,14 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     @Override
     public void keyPressed(KeyEvent e) {
-
-
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
-
     }
 
 
     public void createMenu() {
-
-
         menuJ = new JFrame();
         menuJ.setTitle("MENU");
         menuJ.setSize(810, 485);

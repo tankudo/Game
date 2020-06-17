@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 public class WriteFile {
 
-    String name="Csaba";
+    String name="győztes";
 
 
     public String getName() {

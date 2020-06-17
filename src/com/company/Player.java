@@ -21,8 +21,10 @@ public class Player extends Entity {
     static int interval = 100;
     static Timer timer;
     int delay = 1000;
-    int period = 1000;
-    int score = interval; // ezt kell kimentened DR. SIKURA
+    int period = 2000;
+  public int score = interval; // ezt kell kimentened DR. SIKURA
+    boolean isdeath;
+
 
 
     Player() {
@@ -44,7 +46,11 @@ public class Player extends Entity {
         jumpRight = Toolkit.getDefaultToolkit().createImage("data/gif/jumpRight.gif");
 
     }
-    private  final int setInterval(){
+
+
+
+
+private  final int setInterval(){
         // x =769 y =105
         if(interval <= 0 || (x == 769 && y == 105)){
 
@@ -64,6 +70,7 @@ public class Player extends Entity {
         } else {
             g.drawImage(deadRight, x, y, null);
         }
+        isdeath=true;
     }
 
     public void paintComponent(Graphics g) {
@@ -71,7 +78,7 @@ public class Player extends Entity {
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.black);
         g2.setFont(new Font("arial", Font.BOLD, 20));
-        g2.drawString("Bonus = " + interval, 50, 50);
+        g2.drawString("Score = " + interval, 50, 50);
 
         if (velX == 0 && x == 769) {
             g.drawImage(idleByLeft, x, y, null);
@@ -88,6 +95,14 @@ public class Player extends Entity {
 
     public boolean collosion(boolean acollososion) {
         return acollososion;
+    }
+
+    public void setDelay(int delay) {
+        this.delay = delay;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 
     public void update() {
@@ -119,10 +134,14 @@ public class Player extends Entity {
             y = 165;
         }
         if (x == 1 && y == 165) {
-            y = 105;
+            y = 95;
         }
         x = x + velX;
 
+
+    }
+    public boolean isIsdeath() {
+        return isdeath;
     }
 
     public int getX() {

@@ -11,7 +11,6 @@ public class MenuPanel extends Menu {
 
 
     public MenuPanel() {
-
         menubackground = Toolkit.getDefaultToolkit().createImage("data/gif/city.gif");
         System.out.println("Menulvl");
     }
@@ -19,7 +18,6 @@ public class MenuPanel extends Menu {
 
     @Override
     public void paintComponent(Graphics g) {
-
         g.drawImage(menubackground, 0, 0, null);
     }
 

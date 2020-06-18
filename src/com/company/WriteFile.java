@@ -24,7 +24,4 @@ public class WriteFile {
         f.close();
 
     }
-
-
-
 }

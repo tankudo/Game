@@ -54,7 +54,6 @@ public class Player extends Entity {
     }
 
     private final int setInterval() {
-        // x =769 y =105
         if (interval <= 0 || (x == 769 && y == 95)) {
             timer.cancel();
             score = interval;
@@ -66,7 +65,6 @@ public class Player extends Entity {
     }
 
     public void die(Graphics g) {
-        Graphics2D g2 = (Graphics2D) g;
         if (velX <= 0) {
             g.drawImage(deadLeft, x, y, null);
         } else {
@@ -76,7 +74,6 @@ public class Player extends Entity {
     }
 
     public void paintComponent(Graphics g) {
-        //bonus data on the screen can be done with JLable too
         Graphics2D g2 = (Graphics2D) g;
         g2.setColor(Color.black);
         g2.setFont(new Font("arial", Font.BOLD, 20));
@@ -105,10 +102,6 @@ public class Player extends Entity {
     public void setDelay(int delay) {
         this.delay = delay;
     }
-
-//    public void setScore(int score) {
-//        this.score = score;
-//    }
 
     public void update() {
         if (x < 0 || x > 770) {
@@ -158,14 +151,6 @@ public class Player extends Entity {
         return y;
     }
 
-    public void setY(int y) {
-        this.y = y;
-    }
-
-    public int getVelX() {
-        return velX;
-    }
-
     public void setVelX(int velX) {
         this.velX = velX;
     }
@@ -173,14 +158,6 @@ public class Player extends Entity {
     public Rectangle bounds() {
         return (new Rectangle(x, y, 50, 50));
     }
-
-//    public int getInterval() {
-//        return interval;
-//    }
-//
-//    public void setInterval(int interval) {
-//        this.interval = interval;
-//    }
 
     public int getScore() {
         return score;

@@ -5,7 +5,7 @@ import java.awt.*;
 
 
 public  class Elevator extends Entity {
-    int x = 380, y = 80, velX = 0, velY = 1;
+    int x = 380, y = 80, velY = 1;
 
     Image elevator;
 
@@ -31,10 +31,6 @@ public  class Elevator extends Entity {
 
     public int getY() {
         return y;
-    }
-
-    public void setVelY(int velY) {
-        this.velY = velY;
     }
 
     public Rectangle bounds(){

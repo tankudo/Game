@@ -15,15 +15,11 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
     JButton buttonExit;
     JFrame menuJ;
     Game game = new Game();
-
-
-   // Timer tm = new Timer(5, this);
     Menu menu = new MenuPanel();
 
 
-
     public MenuRunner() {
-        //tm.start();
+
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -60,7 +56,6 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         menu.paintComponent(g);
 
         System.out.println("Menu run");
-        //tm.start();
     }
 
 
@@ -80,8 +75,6 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
             game.window();
             menuJ.setVisible(false);
-
-
         }
     }
 

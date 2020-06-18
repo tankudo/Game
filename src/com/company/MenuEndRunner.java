@@ -115,7 +115,6 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
     public void newGame(ActionEvent event) {
         if (event.getActionCommand().equals("NEW GAME")) {
             game.window();
-            //game.jf.setVisible(false);
             menue.setVisible(false);
 
 

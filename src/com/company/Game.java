@@ -29,7 +29,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
 
     public Game() {
 
-        // tm.start();
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -62,12 +61,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
             }
 
         }
-        // tm.start();
-        if (bonusFruit.isEmpty()) {
-            //    player.levelCompletedRecognizer();
-            //  System.out.println(player.getFinalScore()+" final");
-        }
-
     }
 
     @Override
@@ -150,15 +143,4 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         }
     }
 
-    public boolean isCollision() {
-        return collision;
-    }
-  /*
-    public void endMenu(){
-        if (collision){
-            MenuEndRunner menuEndRunner=new MenuEndRunner();
-            menuEndRunner.endMenu();
-        }
-    }
-    */
 }

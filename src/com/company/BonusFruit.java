@@ -6,12 +6,11 @@ public class BonusFruit {
 
     private Image image;
 
-    int cpuX, cpuY; //60 , 515
+    int cpuX, cpuY;
 
     public BonusFruit(String file) {
 
-        image = Toolkit.getDefaultToolkit().createImage(file); // "data/gif/cpu1.gif"
-
+        image = Toolkit.getDefaultToolkit().createImage(file);
     }
 
     public void paintComponent(Graphics g) {

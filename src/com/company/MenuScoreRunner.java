@@ -13,7 +13,6 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
     Timer tm = new Timer(5, this);
     JFrame menuscore;
     JButton buttonBack;
-    Menu endmenu = new MenuEnd();
 
     public MenuScoreRunner() {
         tm.start();
@@ -25,7 +24,6 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
 
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-  //      endmenu.paintComponent(g);
         tm.start();
 
     }
@@ -59,8 +57,6 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
     public void back(ActionEvent event){
         if (event.getActionCommand().equals("BACK")) {
             menuscore.setVisible(false);
-
-
         }
     }
 

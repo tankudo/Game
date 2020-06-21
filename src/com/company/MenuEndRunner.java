@@ -80,8 +80,6 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         endmenu.paintComponent(g);
-
-        //tm.start();
     }
 
 
@@ -114,8 +112,13 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
 
     public void newGame(ActionEvent event) {
         if (event.getActionCommand().equals("NEW GAME")) {
-            game.window();
             menue.setVisible(false);
+            if (game != null) {
+                game.endGame();
+            }
+            game = new Game();
+            game.window();
+
 
 
         }
@@ -133,7 +136,6 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
         menue = new JFrame();
         menue.setTitle("ENDMENU");
         menue.setSize(650, 550);
-        menue.setVisible(true);
         menue.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         menue.setLocationRelativeTo(null);
         menue.setResizable(false);
@@ -141,6 +143,7 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
         endScore = Integer.toString(game.getPlayer().score);
         label3.setText(endScore);
         menue.add(this);
+        menue.setVisible(true);
     }
 
 }

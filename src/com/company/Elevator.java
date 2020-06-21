@@ -4,26 +4,27 @@ package com.company;
 import java.awt.*;
 
 
-public  class Elevator extends Entity {
-    int x = 380, y = 80, velY = 1;
+public abstract class Elevator extends Entity {
+    int x, y, direction, speed;
 
-    Image elevator;
+    protected Image elevator;
 
-     Elevator() {
-
-        elevator = Toolkit.getDefaultToolkit().createImage("data/picture/le40x40.png");
+     Elevator(int x, int speed) {
+         this.x = x;
+         this.speed = speed;
+         loadImage();
+        //elevator = Toolkit.getDefaultToolkit().createImage("data/picture/le40x40.png");
     }
     public void paintComponent(Graphics g) {
         g.drawImage(elevator,x,y,null);
+//        g.setColor(Color.red);
+//        g.drawRect(x,y, 50, 50);
     }
 
-    public void update (){
-        if (x == 380 && y == 571) {
-            y = 80;
-        }
-        y = y + velY;
-
+    public void update() {
+        y = y + direction*speed;
     }
+    public abstract void loadImage();
 
     public int getX() {
         return x;

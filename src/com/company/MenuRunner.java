@@ -48,6 +48,15 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
         buttonExit.setBackground(new Color(0.6f, 0.6f, 0.6f, 0.6f));
         this.add(buttonExit);
         buttonExit.addActionListener(this::exit);
+
+        menuJ = new JFrame();
+        menuJ.setTitle("MENU");
+        menuJ.setSize(810, 485);
+        menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menuJ.setLocationRelativeTo(null);
+        menuJ.setResizable(false);
+        menuJ.setLocationRelativeTo(null);
+        menuJ.setContentPane(this);
     }
 
 
@@ -72,7 +81,6 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     public void newGame(ActionEvent event) {
         if (event.getActionCommand().equals("NEW GAME")) {
-
             game.window();
             menuJ.setVisible(false);
         }
@@ -80,7 +88,7 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
     public void score(ActionEvent event) {
         if (event.getActionCommand().equals("SCORE")) {
-            MenuScoreRunner menuScoreRunner=new MenuScoreRunner();
+            MenuScoreRunner menuScoreRunner = new MenuScoreRunner();
             menuScoreRunner.scoreMenu();
         }
     }
@@ -100,26 +108,13 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
 
 
     public void createMenu() {
-        menuJ = new JFrame();
-        menuJ.setTitle("MENU");
-        menuJ.setSize(810, 485);
         menuJ.setVisible(true);
-        menuJ.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        menuJ.setLocationRelativeTo(null);
-        menuJ.setResizable(false);
-        menuJ.setLocationRelativeTo(null);
-
-       // MenuRunner panel = new MenuRunner();
-
-        menuJ.add(this);
-
-
-
+        validate();
 
 
         String audioFilePath = "data/sound/Megalovania.wav";
-       //SoundPlayer player = new SoundPlayer();
-       // player.play(audioFilePath);
+        //SoundPlayer player = new SoundPlayer();
+        // player.play(audioFilePath);
 
 
     }

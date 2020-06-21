@@ -20,7 +20,10 @@ public class Player extends Entity {
     int delay = 1000;
     int period = 1000;
     public int score = interval; // ezt kell kimentened DR. SIKURA
-    boolean isdeath;
+    boolean winner = false;
+    int live = 3;
+    boolean dying = false;
+    private Timer dyingAnimationTimer = new Timer();
 
 
     Player() {
@@ -48,13 +51,10 @@ public class Player extends Entity {
         }, delay, period);
     }
 
-    public void stopTimer() {
-        score = interval;
-        timer.cancel();
-    }
 
     private final int setInterval() {
-        if (interval <= 0 || (x == 769 && y == 95)) {
+        if (x == 769 && y == 95) {
+            winner = true;
             timer.cancel();
             score = interval;
             System.out.println(score + "eredmeny");
@@ -64,79 +64,108 @@ public class Player extends Entity {
         }
     }
 
-    public void die(Graphics g) {
+    public void die() {
+        live--;
+
+        dying = true;
+        dyingAnimationTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                dying = false;
+                x = 0;
+                y = 515;
+            }
+        }, 2000);
+        if (isDead()) {
+            score = interval;
+            timer.cancel();
+        }
+
+    }
+
+    private void drawDie(Graphics g) {
+
         if (velX <= 0) {
             g.drawImage(deadLeft, x, y, null);
         } else {
             g.drawImage(deadRight, x, y, null);
         }
-        isdeath = true;
+
+    }
+
+    public boolean isDead() {
+        return live <= 0;
+    }
+
+    public boolean isDying() {
+        return dying;
     }
 
     public void paintComponent(Graphics g) {
-        Graphics2D g2 = (Graphics2D) g;
-        g2.setColor(Color.black);
-        g2.setFont(new Font("arial", Font.BOLD, 20));
-        g2.drawString("Score = " + interval, 50, 50);
-
-        if (velX == 0 && x == 769) {
-            g.drawImage(idleByLeft, x, y, null);
-
-        } else if (velX == 0 && x == 1) {
-            g.drawImage(idleByRight, x, y, null);
-        } else if (velX > 0) {
-            g.drawImage(walkRight, x, y, null);
+        if (dying) {
+            drawDie(g);
         } else {
-            g.drawImage(walkLeft, x, y, null);
-        }
+            g.setColor(Color.black);
+            g.setFont(new Font("arial", Font.BOLD, 20));
+            g.drawString("Score = " + interval, 50, 50);
+            g.drawString("Lives = " + live, 700, 50);
 
+            if (velX == 0 && x == 769) {
+                g.drawImage(idleByLeft, x, y, null);
+
+            } else if (velX == 0 && x == 1) {
+                g.drawImage(idleByRight, x, y, null);
+            } else if (velX > 0) {
+                g.drawImage(walkRight, x, y, null);
+            } else {
+                g.drawImage(walkLeft, x, y, null);
+            }
+        }
     }
+
     public void addBonus(int bonus) {
         interval += bonus;
     }
 
-    public boolean collosion(boolean acollososion) {
-        return acollososion;
-    }
 
     public void setDelay(int delay) {
         this.delay = delay;
     }
 
     public void update() {
-        if (x < 0 || x > 770) {
-            velX = -velX;
-        }
-        if (x == 0) {
-            velX = 0;
-            x = 1;
+        if (!dying) {
+            if (x < 0 || x > 770) {
+                velX = -velX;
+            }
+            if (x == 0) {
+                velX = 0;
+                x = 1;
 
+            }
+            if (x == 770) {
+                velX = 0;
+                x = 769;
+            }
+            if (x == 769 && y == 515) {
+                y = 445;
+            }
+            if (x == 1 && y == 445) {
+                y = 375;
+            }
+            if (x == 769 && y == 375) {
+                y = 305;
+            }
+            if (x == 1 && y == 305) {
+                y = 235;
+            }
+            if (x == 769 && y == 235) {
+                y = 165;
+            }
+            if (x == 1 && y == 165) {
+                y = 95;
+            }
+            x = x + velX;
         }
-        if (x == 770) {
-            velX = 0;
-            x = 769;
-        }
-        if (x == 769 && y == 515) {
-            y = 445;
-        }
-        if (x == 1 && y == 445) {
-            y = 375;
-        }
-        if (x == 769 && y == 375) {
-            y = 305;
-        }
-        if (x == 1 && y == 305) {
-            y = 235;
-        }
-        if (x == 769 && y == 235) {
-            y = 165;
-        }
-        if (x == 1 && y == 165) {
-            y = 95;
-        }
-        x = x + velX;
-
-
     }
 
     public int getX() {
@@ -161,5 +190,9 @@ public class Player extends Entity {
 
     public int getScore() {
         return score;
+    }
+
+    public boolean isWinner() {
+        return winner;
     }
 }

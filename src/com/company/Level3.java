@@ -6,9 +6,9 @@ public class Level3 extends Level {
 
     public Level3() {
         background = Toolkit.getDefaultToolkit().createImage("data/gif/cityBack3.jpg");
-        elevators.add(new ElevatorDown(400, 1));
+        elevators.add(new ElevatorDown(340, 1));
+        elevators.add(new ElevatorUp(340, 1));
         elevators.add(new ElevatorUp(420, 1));
-        elevators.add(new ElevatorUp(420, 2));
     }
 
     public void paintComponent(Graphics g) {

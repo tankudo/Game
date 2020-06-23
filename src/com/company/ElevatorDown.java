@@ -12,7 +12,7 @@ public class ElevatorDown extends Elevator {
     }
 
     public void update() {
-        if (x == 380 && y == 571) {
+        if (y == 571) {
             y = 80;
         }
        super.update();

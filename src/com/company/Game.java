@@ -73,13 +73,16 @@ public class Game extends JPanel implements ActionListener, KeyListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (player.isWinner()) {
-
             if (level == levels.size() - 1) {
                 System.out.println("Game over");
 
             } else {
+                player.winner = false;
                 level++;
+                player.setX(0);
+                player.setY(515);
                 window();
+
             }
 
         }
@@ -132,7 +135,10 @@ public class Game extends JPanel implements ActionListener, KeyListener {
                 fruit.setCpuY(585 - i * 35);
             }
         }
-        player = new Player();
+        if (player == null) {
+            player = new Player();
+        }
+
         if (jf != null) {
             jf.setVisible(false);
         }

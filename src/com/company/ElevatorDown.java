@@ -4,18 +4,19 @@ import java.awt.*;
 
 public class ElevatorDown extends Elevator {
 
+
+
     ElevatorDown(int x, int speed) {
         super(x, speed);
-        y = 80;
+        y = upPoint;
         direction = 1;
-
     }
 
     public void update() {
-        if (y == 571) {
-            y = 80;
+        if (Math.abs(y - downPoint) <= 5) {
+            y = upPoint;
         }
-       super.update();
+        super.update();
 
     }
 

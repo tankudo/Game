@@ -2,13 +2,14 @@ package com.company;
 
 import java.awt.*;
 
-public class Level3 extends Level {
+public class Level4 extends Level {
 
-    public Level3() {
-        background = Toolkit.getDefaultToolkit().createImage("data/gif/cityBack3.jpg");
+    public Level4() {
+        background = Toolkit.getDefaultToolkit().createImage("data/gif/cityBack4.jpg");
         elevators.add(new ElevatorDown(340, 1));
         elevators.add(new ElevatorUp(340, 1));
         elevators.add(new ElevatorUp(420, 2));
+        elevators.add(new ElevatorDown(420,2));
     }
 
     public void paintComponent(Graphics g) {
@@ -39,7 +40,7 @@ public class Level3 extends Level {
         g.drawImage(image2, 60, 135, null);
         g.drawImage(image7, 460, 135, null);
         g.setFont(new Font("arial", Font.BOLD, 40));
-        g.drawString("Level 3", 310, 50);
+        g.drawString("Level 4", 310, 50);
 
     }
 }

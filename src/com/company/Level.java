@@ -22,22 +22,12 @@ public abstract class Level {
 
     public Level() {
 
-        image0 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
         image1 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
-        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
-        image3 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
-        image4 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
-        image5 = Toolkit.getDefaultToolkit().createImage("data/gif/wall320.png");
+        image2 = Toolkit.getDefaultToolkit().createImage("data/gif/wall280.png");
         image6 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image9 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image10 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
-        image11 = Toolkit.getDefaultToolkit().createImage("data/gif/wall380.png");
+        image7 = Toolkit.getDefaultToolkit().createImage("data/gif/wall340.png");
+        image8 = Toolkit.getDefaultToolkit().createImage("data/gif/wall40.png");
         image12 = Toolkit.getDefaultToolkit().createImage("data/gif/rArrow.gif");
-
-
-
     }
 
     public void paintComponent(Graphics g){

@@ -5,11 +5,14 @@ import java.awt.*;
 
 
 public abstract class Elevator extends Entity {
-    int x, y, direction, speed;
+    int x, y, direction;
+    double speed;
+    int downPoint = 571;
+    int upPoint = 80;
 
     protected Image elevator;
 
-     Elevator(int x, int speed) {
+     Elevator(int x, double speed) {
          this.x = x;
          this.speed = speed;
          loadImage();
@@ -17,12 +20,10 @@ public abstract class Elevator extends Entity {
     }
     public void paintComponent(Graphics g) {
         g.drawImage(elevator,x,y,null);
-//        g.setColor(Color.red);
-//        g.drawRect(x,y, 50, 50);
     }
 
     public void update() {
-        y = y + direction*speed;
+        y = (int) Math.round(y + direction*speed);
     }
     public abstract void loadImage();
 

@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class ElevatorUp extends Elevator {
 
-    ElevatorUp(int x, int speed) {
+    ElevatorUp(int x, double speed) {
         super(x, speed);
         y = 571;
         direction = -1;
@@ -13,7 +13,7 @@ public class ElevatorUp extends Elevator {
     }
 
     public void update() {
-        if (y == 80) {
+        if (Math.abs(y - upPoint) <= 5) {
             y = 571;
         }
        super.update();

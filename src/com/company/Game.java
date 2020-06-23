@@ -32,6 +32,7 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         levels.add(new Level1());
         levels.add(new Level2());
         levels.add(new Level3());
+        levels.add(new Level4());
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
@@ -91,7 +92,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         }
         repaint();
 
-//        if (!collision) {
         Level currentLevel = levels.get(level);
         for (Elevator elevator : currentLevel.getElevators()
         ) {
@@ -100,7 +100,6 @@ public class Game extends JPanel implements ActionListener, KeyListener {
         }
         player.update();
 
-//        }
     }
 
     @Override

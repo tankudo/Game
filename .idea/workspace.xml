@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5442f1d5-6598-443f-944b-97588966c210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/gif/wall280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/wall340.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/gif/wall40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Level4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Elevator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuEndRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/MenuEndRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Level2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MatrixGame/com/company/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Elevator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ElevatorDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ElevatorDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ElevatorUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ElevatorUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Level1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Level2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Level3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Level3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/MenuEndRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MenuEndRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,18 +92,18 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data/gif" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/gif" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\picture" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\gif" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="C:\Users\C2D2\IdeaProjects\matrixGame\data\sound" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/gif" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GameRunner">
@@ -204,7 +215,7 @@
       <workItem from="1592651902126" duration="5665000" />
       <workItem from="1592763616242" duration="11574000" />
       <workItem from="1592808187300" duration="3268000" />
-      <workItem from="1592894525364" duration="1031000" />
+      <workItem from="1592894525364" duration="8268000" />
     </task>
     <servers />
   </component>
@@ -249,43 +260,43 @@
     </state>
     <state x="-1329" y="-64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590675946811" />
     <state x="539" y="27" width="956" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1533.873@67.27.1533.873" timestamp="1592769397267" />
-    <state x="740" y="280" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592125360394">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl" timestamp="1592913337598">
+      <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state x="-1180" y="216" key="FileChooserDialogImpl/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1590599057804" />
     <state x="740" y="280" key="FileChooserDialogImpl/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1592125360394" />
-    <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1591698098752" />
-    <state width="1487" height="109" key="GridCell.Tab.0.bottom" timestamp="1592860671479">
+    <state x="658" y="260" width="424" height="484" key="FileChooserDialogImpl/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592913337598" />
+    <state width="1487" height="195" key="GridCell.Tab.0.bottom" timestamp="1592931931253">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.bottom/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
     <state width="1877" height="153" key="GridCell.Tab.0.bottom/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1592414479722" />
-    <state width="1487" height="109" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592860671479" />
+    <state width="1487" height="195" key="GridCell.Tab.0.bottom/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592931931253" />
     <state width="1487" height="109" key="GridCell.Tab.0.bottom/67.27.1533.873@67.27.1533.873" timestamp="1592775621308" />
-    <state width="1487" height="109" key="GridCell.Tab.0.center" timestamp="1592860671478">
+    <state width="1487" height="195" key="GridCell.Tab.0.center" timestamp="1592931931253">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.center/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
     <state width="1877" height="153" key="GridCell.Tab.0.center/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1592414479721" />
-    <state width="1487" height="109" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592860671478" />
+    <state width="1487" height="195" key="GridCell.Tab.0.center/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592931931253" />
     <state width="1487" height="109" key="GridCell.Tab.0.center/67.27.1533.873@67.27.1533.873" timestamp="1592775621308" />
-    <state width="1487" height="109" key="GridCell.Tab.0.left" timestamp="1592860671478">
+    <state width="1487" height="195" key="GridCell.Tab.0.left" timestamp="1592931931253">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.left/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391038" />
     <state width="1557" height="368" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881945" />
     <state width="1877" height="153" key="GridCell.Tab.0.left/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1592414479721" />
-    <state width="1487" height="109" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592860671478" />
+    <state width="1487" height="195" key="GridCell.Tab.0.left/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592931931253" />
     <state width="1487" height="109" key="GridCell.Tab.0.left/67.27.1533.873@67.27.1533.873" timestamp="1592775621307" />
-    <state width="1487" height="109" key="GridCell.Tab.0.right" timestamp="1592860671479">
+    <state width="1487" height="195" key="GridCell.Tab.0.right" timestamp="1592931931253">
       <screen x="67" y="27" width="1533" height="873" />
     </state>
     <state width="1877" height="178" key="GridCell.Tab.0.right/0.0.1280.994/-1920.-64.1920.1050@-1920.-64.1920.1050" timestamp="1591105391039" />
     <state width="1557" height="368" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1920.1040@0.0.1600.860" timestamp="1591728881946" />
     <state width="1877" height="153" key="GridCell.Tab.0.right/1920.54.1280.994/0.0.1920.1050@0.0.1920.1050" timestamp="1592414479721" />
-    <state width="1487" height="109" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592860671479" />
+    <state width="1487" height="195" key="GridCell.Tab.0.right/67.27.1533.873/1600.0.1024.768@67.27.1533.873" timestamp="1592931931253" />
     <state width="1487" height="109" key="GridCell.Tab.0.right/67.27.1533.873@67.27.1533.873" timestamp="1592775621308" />
     <state width="1487" height="99" key="GridCell.Tab.1.bottom" timestamp="1592860405050">
       <screen x="67" y="27" width="1533" height="873" />

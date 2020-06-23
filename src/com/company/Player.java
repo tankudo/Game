@@ -24,6 +24,10 @@ public class Player extends Entity {
     int live = 3;
     boolean dying = false;
     private Timer dyingAnimationTimer = new Timer();
+    int endPointX = 769;
+    int endPointY = 95;
+    int startPointX = 0;
+    int startPointY = 515;
 
 
     Player() {
@@ -53,7 +57,7 @@ public class Player extends Entity {
 
 
     private final int setInterval() {
-        if (x == 769 && y == 95) {
+        if (x == endPointX && y == endPointY) {
             winner = true;
             timer.cancel();
             score = interval;
@@ -72,8 +76,8 @@ public class Player extends Entity {
             @Override
             public void run() {
                 dying = false;
-                x = 0;
-                y = 515;
+                x = startPointX;
+                y = startPointY;
             }
         }, 2000);
         if (isDead()) {
@@ -110,10 +114,10 @@ public class Player extends Entity {
             g.drawString("Score = " + interval, 50, 50);
             g.drawString("Lives = " + live, 700, 50);
 
-            if (velX == 0 && x == 769) {
+            if (velX == 0 && x == endPointX) {
                 g.drawImage(idleByLeft, x, y, null);
 
-            } else if (velX == 0 && x == 1) {
+            } else if (velX == 0 && x == startPointX+1) {
                 g.drawImage(idleByRight, x, y, null);
             } else if (velX > 0) {
                 g.drawImage(walkRight, x, y, null);
@@ -134,35 +138,35 @@ public class Player extends Entity {
 
     public void update() {
         if (!dying) {
-            if (x < 0 || x > 770) {
+            if (x < startPointX || x > 770) {
                 velX = -velX;
             }
-            if (x == 0) {
+            if (x == startPointX) {
                 velX = 0;
-                x = 1;
+                x = startPointX+1;
 
             }
             if (x == 770) {
                 velX = 0;
-                x = 769;
+                x = endPointX;
             }
-            if (x == 769 && y == 515) {
+            if (x == endPointX && y == startPointY) {
                 y = 445;
             }
-            if (x == 1 && y == 445) {
+            if (x == startPointX+1 && y == 445) {
                 y = 375;
             }
-            if (x == 769 && y == 375) {
+            if (x == endPointX && y == 375) {
                 y = 305;
             }
-            if (x == 1 && y == 305) {
+            if (x == startPointX+1 && y == 305) {
                 y = 235;
             }
-            if (x == 769 && y == 235) {
+            if (x == endPointX && y == 235) {
                 y = 165;
             }
-            if (x == 1 && y == 165) {
-                y = 95;
+            if (x == startPointX+1 && y == 165) {
+                y = endPointY;
             }
             x = x + velX;
         }

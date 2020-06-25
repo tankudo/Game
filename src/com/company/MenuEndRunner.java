@@ -5,6 +5,7 @@ import javax.sound.sampled.LineListener;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 public class MenuEndRunner extends JPanel implements ActionListener, KeyListener, LineListener {
     private JFrame menue;
@@ -14,9 +15,22 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
     private JButton buttonSubmit;
     private JButton buttonExit;
     private Game game;
-    private String endScore;
+    private int endScore;
     private String name;
     private JLabel label3 = new JLabel();
+    private static ArrayList<SaveScore> saveScoreList = new ArrayList<>();
+
+    public static ArrayList<SaveScore> getSaveScoreList() {
+        return (ArrayList<SaveScore>) saveScoreList.clone();
+    }
+
+//todo saveResults and loadResuts (2 methods) clean list before load (void)
+
+//    static {
+//        saveScoreList.add(new SaveScore("Name", 234));
+//        saveScoreList.add(new SaveScore("Name34", 34));
+//        saveScoreList.add(new SaveScore("NameDne", 1234));
+//    }
 
     public MenuEndRunner(Game game) {
 
@@ -26,7 +40,7 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
         setFocusTraversalKeysEnabled(false);
         this.textField = new JTextField(25);
         this.buttonNewGame = new JButton("NEW GAME");
-        this.buttonSubmit = new JButton("NAME SUBMIT");
+        this.buttonSubmit = new JButton("SUBMIT");
         this.buttonExit = new JButton("EXIT");
         this.setLayout(null);
         JLabel label1 = new JLabel("GAME OVER:");
@@ -120,15 +134,18 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
             game.window();
 
 
-
-
         }
     }
 
     public void submit(ActionEvent event) {
-        if (event.getActionCommand().equals("NAME SUBMIT")) {
+        if (event.getActionCommand().equals("SUBMIT")) {
             name = textField.getText();
-            System.out.println(name);
+            //System.out.println(name);
+            saveScoreList.add(new SaveScore(name, endScore));
+            //saveScoreList
+            MenuScoreRunner menuScoreRunner = new MenuScoreRunner();
+            menuScoreRunner.scoreMenu();
+
 
         }
     }
@@ -141,10 +158,12 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
         menue.setLocationRelativeTo(null);
         menue.setResizable(false);
         menue.setLocationRelativeTo(null);
-        endScore = Integer.toString(game.getPlayer().score);
-        label3.setText(endScore);
+        endScore = game.getPlayer().score;
+
+        label3.setText(String.valueOf(endScore));
         menue.add(this);
         menue.setVisible(true);
     }
+
 
 }

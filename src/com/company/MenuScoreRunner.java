@@ -3,16 +3,20 @@ package com.company;
 import javax.sound.sampled.LineEvent;
 import javax.sound.sampled.LineListener;
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class MenuScoreRunner extends JPanel implements ActionListener, KeyListener, LineListener {
     Timer tm = new Timer(5, this);
     JFrame menuscore;
     JButton buttonBack;
+
 
     public MenuScoreRunner() {
         tm.start();
@@ -22,7 +26,7 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
         this.buttonBack = new JButton("BACK");
     }
 
-    public void paintComponent(Graphics g){
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
         tm.start();
 
@@ -54,7 +58,7 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
 
     }
 
-    public void back(ActionEvent event){
+    public void back(ActionEvent event) {
         if (event.getActionCommand().equals("BACK")) {
             menuscore.setVisible(false);
         }
@@ -62,6 +66,7 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
 
 
     public void scoreMenu() {
+
         menuscore = new JFrame();
         menuscore.setTitle("SCOREMENU");
         menuscore.setSize(650, 550);
@@ -72,15 +77,31 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
         menuscore.setLocationRelativeTo(null);
 
         MenuScoreRunner panel3 = new MenuScoreRunner();
-        panel3.setLayout(null);
-        menuscore.add(panel3);
+        panel3.setLayout(new BorderLayout());
 
-        buttonBack.setBounds(200, 450, 250, 40);
+        buttonBack.setSize(250, 40);
         buttonBack.setFont(new Font("Bauhaus 93", Font.BOLD, 28));
         buttonBack.setForeground(Color.BLACK);
         buttonBack.setBackground(new Color(0.6f, 0.6f, 0.6f, 0.6f));
         panel3.add(buttonBack);
         buttonBack.addActionListener(this::back);
+        panel3.add(buttonBack, BorderLayout.SOUTH);
+// loadResults
+        JTable table = new JTable();
+        DefaultTableModel model = new DefaultTableModel();
+        String[] headers = {"Player name", "Score"};
+        model.setColumnIdentifiers(headers);
+        ArrayList<SaveScore> score = MenuEndRunner.getSaveScoreList();
+        Collections.sort(score);
+        for (int i = 0; i < score.size(); i++) {
+            SaveScore saveScore = score.get(i);
+            model.addRow(new Object[]{saveScore.getPlayerName(), saveScore.getPlayerScore()});
+        }
+        table.setModel(model);
+        JScrollPane scroll = new JScrollPane(table);
+        scroll.setSize(300, 300);
+        panel3.add(scroll, BorderLayout.CENTER);
+        menuscore.setContentPane(panel3);
 
     }
 }

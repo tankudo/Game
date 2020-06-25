@@ -80,8 +80,8 @@ public class Game extends JPanel implements ActionListener, KeyListener {
             } else {
                 player.winner = false;
                 level++;
-                player.setX(0);
-                player.setY(515);
+                player.setX(player.startPointX);
+                player.setY(player.startPointY);
                 window();
 
             }

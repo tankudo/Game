@@ -5,7 +5,12 @@ import javax.sound.sampled.LineListener;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MenuEndRunner extends JPanel implements ActionListener, KeyListener, LineListener {
     private JFrame menue;
@@ -24,7 +29,29 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
         return (ArrayList<SaveScore>) saveScoreList.clone();
     }
 
-//todo saveResults and loadResuts (2 methods) clean list before load (void)
+    //todo
+    public void saveResults() throws FileNotFoundException {
+        PrintWriter pw = new PrintWriter(new FileOutputStream("score.txt"));
+        for (SaveScore saveScore : saveScoreList) {
+            pw.println(saveScore.toString());
+            pw.close();
+        }
+    }
+    public static void loadResults() throws FileNotFoundException {
+        saveScoreList.clear();
+        Scanner sc = new Scanner(new File("score.txt"));
+
+        while (sc.hasNextLine()) {
+            String line = sc.nextLine();
+            String[] lineParts = line.split(",");
+            SaveScore saveScore = new SaveScore(
+                    lineParts[0],
+                    Integer.parseInt(lineParts[1])
+            );
+            saveScoreList.add(saveScore);
+
+        }
+    }
 
 //    static {
 //        saveScoreList.add(new SaveScore("Name", 234));
@@ -94,6 +121,8 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         endmenu.paintComponent(g);
+        // todo loadResults
+
     }
 
 
@@ -142,9 +171,15 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
             name = textField.getText();
             //System.out.println(name);
             saveScoreList.add(new SaveScore(name, endScore));
-            //saveScoreList
+            //todo
+            try {
+                saveResults();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
             MenuScoreRunner menuScoreRunner = new MenuScoreRunner();
             menuScoreRunner.scoreMenu();
+
 
 
         }

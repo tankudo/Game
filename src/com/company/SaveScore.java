@@ -31,4 +31,9 @@ public class SaveScore implements Comparable {
     public int getPlayerScore() {
         return playerScore;
     }
+
+    @Override
+    public String toString() {
+        return playerName + "," + playerScore;
+    }
 }

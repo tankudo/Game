@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -61,6 +62,7 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
     public void back(ActionEvent event) {
         if (event.getActionCommand().equals("BACK")) {
             menuscore.setVisible(false);
+
         }
     }
 
@@ -86,7 +88,8 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
         panel3.add(buttonBack);
         buttonBack.addActionListener(this::back);
         panel3.add(buttonBack, BorderLayout.SOUTH);
-// loadResults
+
+
         JTable table = new JTable();
         DefaultTableModel model = new DefaultTableModel();
         String[] headers = {"Player name", "Score"};
@@ -102,6 +105,7 @@ public class MenuScoreRunner extends JPanel implements ActionListener, KeyListen
         scroll.setSize(300, 300);
         panel3.add(scroll, BorderLayout.CENTER);
         menuscore.setContentPane(panel3);
+
 
     }
 }

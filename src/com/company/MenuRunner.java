@@ -6,6 +6,7 @@ import javax.sound.sampled.LineListener;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 
@@ -111,6 +112,11 @@ public class MenuRunner extends JPanel implements ActionListener, KeyListener, L
     public void createMenu() {
         menuJ.setVisible(true);
         validate();
+        try {
+            MenuEndRunner.loadResults();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
 
         String audioFilePath = "data/sound/Megalovania.wav";

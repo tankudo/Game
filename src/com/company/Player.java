@@ -21,7 +21,7 @@ public class Player extends Entity {
     int period = 1000;
     public int score = interval; // ezt kell kimentened DR. SIKURA
     boolean winner = false;
-    int live = 3;
+    int live = 1;
     boolean dying = false;
     private Timer dyingAnimationTimer = new Timer();
     int endPointX = 769;

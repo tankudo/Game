@@ -2,7 +2,7 @@ package com.company;
 
 import java.awt.*;
 
-public class BonusFruit {
+public class BonusFruit extends Entity{
 
     private Image image;
 

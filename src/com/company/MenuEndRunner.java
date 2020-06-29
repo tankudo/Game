@@ -5,10 +5,7 @@ import javax.sound.sampled.LineListener;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,13 +27,21 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
     }
 
     //todo
-    public void saveResults() throws FileNotFoundException {
-        PrintWriter pw = new PrintWriter(new FileOutputStream("score.txt"));
-        for (SaveScore saveScore : saveScoreList) {
-            pw.println(saveScore.toString());
-            pw.close();
-        }
+    public void saveResults() throws IOException {
+        // PrintWriter pw = new PrintWriter(new FileOutputStream("score.txt"));
+//        for (SaveScore saveScore : saveScoreList) {
+//            pw.println(saveScore.toString());
+//            pw.close();
+            BufferedWriter output;
+            output = new BufferedWriter(new FileWriter("score.txt", true));
+            String sizeX = name+","+endScore;
+            output.append(sizeX);
+            output.newLine();
+            output.close();
+       // }
+
     }
+
     public static void loadResults() throws FileNotFoundException {
         saveScoreList.clear();
         Scanner sc = new Scanner(new File("score.txt"));
@@ -176,10 +181,11 @@ public class MenuEndRunner extends JPanel implements ActionListener, KeyListener
                 saveResults();
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
             MenuScoreRunner menuScoreRunner = new MenuScoreRunner();
             menuScoreRunner.scoreMenu();
-
 
 
         }
